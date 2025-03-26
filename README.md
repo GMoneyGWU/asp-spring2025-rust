@@ -6,7 +6,6 @@ A cross-platform, high-performance **class scheduling application** that leverag
 
 ## 🧩 Architecture
 
-```plaintext
 Flutter (Dart) UI
 │
 │  via flutter_rust_bridge
@@ -17,9 +16,10 @@ Rust Backend
 ├── Constraint Handling
 └── Persistence Layer (UnQLite / JSON files)
 
+---
+
 ## 📦 Project Structure
 
-```plaintext
 scheduler_app/
 ├── backend/               # Rust crate
 │   ├── src/
@@ -29,10 +29,12 @@ scheduler_app/
 │   └── pubspec.yaml
 └── README.md
 
+---
+
 ## 🔧 Dependencies
 
 ### Rust (`backend/Cargo.toml`)
-```toml
+
 [dependencies]
 serde = { version = "1", features = ["derive"] }
 serde_json = "1"
@@ -40,7 +42,7 @@ flutter_rust_bridge = "1.79"
 unqlite = "1.0.0"
 
 ### Flutter (`frontend/pubspec.yaml`)
-```yaml
+
 dependencies:
   flutter:
     sdk: flutter
