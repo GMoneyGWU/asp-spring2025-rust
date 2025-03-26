@@ -1,0 +1,17 @@
+# Rust
+/backend/target/
+/backend/Cargo.lock
+
+# Flutter
+/frontend/.dart_tool/
+/frontend/build/
+/frontend/.idea/
+/frontend/.packages
+.flutter-plugins
+.packages
+
+# General
+.DS_Store
+*.log
+*.bak
+*.tmp

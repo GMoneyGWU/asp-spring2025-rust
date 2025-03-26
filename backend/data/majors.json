@@ -1,0 +1,134 @@
+[
+  {
+    "major_id": 1,
+    "name": "Lead Studies",
+    "degree_requirements": [
+      17,
+      39,
+      30,
+      48,
+      3,
+      43
+    ]
+  },
+  {
+    "major_id": 2,
+    "name": "Light Studies",
+    "degree_requirements": [
+      11,
+      47,
+      12,
+      22,
+      9
+    ]
+  },
+  {
+    "major_id": 3,
+    "name": "Travel Studies",
+    "degree_requirements": [
+      2,
+      33,
+      43,
+      32,
+      46,
+      44,
+      30,
+      43,
+      41
+    ]
+  },
+  {
+    "major_id": 4,
+    "name": "Service Studies",
+    "degree_requirements": [
+      7,
+      38,
+      49,
+      29,
+      32,
+      25,
+      23
+    ]
+  },
+  {
+    "major_id": 5,
+    "name": "Can Studies",
+    "degree_requirements": [
+      19,
+      46,
+      27,
+      48,
+      18,
+      20,
+      43,
+      48,
+      4
+    ]
+  },
+  {
+    "major_id": 6,
+    "name": "Trouble Studies",
+    "degree_requirements": [
+      28,
+      12,
+      45,
+      36,
+      44,
+      5,
+      37,
+      33,
+      33
+    ]
+  },
+  {
+    "major_id": 7,
+    "name": "Discover Studies",
+    "degree_requirements": [
+      12,
+      38,
+      19,
+      12,
+      18,
+      42
+    ]
+  },
+  {
+    "major_id": 8,
+    "name": "Pay Studies",
+    "degree_requirements": [
+      7,
+      26,
+      19,
+      32,
+      3,
+      13
+    ]
+  },
+  {
+    "major_id": 9,
+    "name": "Order Studies",
+    "degree_requirements": [
+      38,
+      4,
+      41,
+      49,
+      33,
+      5,
+      46,
+      29
+    ]
+  },
+  {
+    "major_id": 10,
+    "name": "Drop Studies",
+    "degree_requirements": [
+      21,
+      29,
+      2,
+      42,
+      38,
+      5,
+      15
+    ]
+  }
+]

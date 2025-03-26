@@ -1,0 +1,524 @@
+[
+  {
+    "course_id": 1,
+    "course_name": "Former Stay",
+    "credits": 4,
+    "department": "Congress Dept",
+    "semester_offered": "Fall",
+    "prerequisites": [
+      50,
+      35
+    ]
+  },
+  {
+    "course_id": 2,
+    "course_name": "Goal Number",
+    "credits": 3,
+    "department": "Discover Dept",
+    "semester_offered": "Spring",
+    "prerequisites": [
+      39,
+      30,
+      3
+    ]
+  },
+  {
+    "course_id": 3,
+    "course_name": "Respond Finally",
+    "credits": 3,
+    "department": "Air Dept",
+    "semester_offered": "Fall",
+    "prerequisites": [
+      49
+    ]
+  },
+  {
+    "course_id": 4,
+    "course_name": "Themselves Sense",
+    "credits": 3,
+    "department": "Responsibility Dept",
+    "semester_offered": "Summer",
+    "prerequisites": [
+      15,
+      28
+    ]
+  },
+  {
+    "course_id": 5,
+    "course_name": "Art To",
+    "credits": 3,
+    "department": "Outside Dept",
+    "semester_offered": "Spring",
+    "prerequisites": []
+  },
+  {
+    "course_id": 6,
+    "course_name": "Quality Moment",
+    "credits": 4,
+    "department": "Sometimes Dept",
+    "semester_offered": "Summer",
+    "prerequisites": [
+      2,
+      19
+    ]
+  },
+  {
+    "course_id": 7,
+    "course_name": "Including They",
+    "credits": 4,
+    "department": "Politics Dept",
+    "semester_offered": "Summer",
+    "prerequisites": [
+      33,
+      33
+    ]
+  },
+  {
+    "course_id": 8,
+    "course_name": "Phone Town",
+    "credits": 3,
+    "department": "Development Dept",
+    "semester_offered": "Summer",
+    "prerequisites": []
+  },
+  {
+    "course_id": 9,
+    "course_name": "Light Author",
+    "credits": 4,
+    "department": "Environment Dept",
+    "semester_offered": "Fall",
+    "prerequisites": [
+      40
+    ]
+  },
+  {
+    "course_id": 10,
+    "course_name": "Building Fish",
+    "credits": 4,
+    "department": "Less Dept",
+    "semester_offered": "Fall",
+    "prerequisites": []
+  },
+  {
+    "course_id": 11,
+    "course_name": "Bit Office",
+    "credits": 3,
+    "department": "Mouth Dept",
+    "semester_offered": "Fall",
+    "prerequisites": [
+      32,
+      6,
+      22
+    ]
+  },
+  {
+    "course_id": 12,
+    "course_name": "Both Process",
+    "credits": 3,
+    "department": "Body Dept",
+    "semester_offered": "Spring",
+    "prerequisites": [
+      44
+    ]
+  },
+  {
+    "course_id": 13,
+    "course_name": "Feel Defense",
+    "credits": 4,
+    "department": "Be Dept",
+    "semester_offered": "Spring",
+    "prerequisites": [
+      23,
+      30,
+      27
+    ]
+  },
+  {
+    "course_id": 14,
+    "course_name": "Season Arm",
+    "credits": 3,
+    "department": "Wonder Dept",
+    "semester_offered": "Fall",
+    "prerequisites": [
+      38,
+      23,
+      17
+    ]
+  },
+  {
+    "course_id": 15,
+    "course_name": "Space Song",
+    "credits": 4,
+    "department": "My Dept",
+    "semester_offered": "Summer",
+    "prerequisites": [
+      8,
+      15
+    ]
+  },
+  {
+    "course_id": 16,
+    "course_name": "Change About",
+    "credits": 4,
+    "department": "Bit Dept",
+    "semester_offered": "Fall",
+    "prerequisites": [
+      10
+    ]
+  },
+  {
+    "course_id": 17,
+    "course_name": "Upon Hand",
+    "credits": 4,
+    "department": "Area Dept",
+    "semester_offered": "Spring",
+    "prerequisites": [
+      38,
+      14
+    ]
+  },
+  {
+    "course_id": 18,
+    "course_name": "Maybe Brother",
+    "credits": 3,
+    "department": "It Dept",
+    "semester_offered": "Summer",
+    "prerequisites": [
+      17,
+      48,
+      3
+    ]
+  },
+  {
+    "course_id": 19,
+    "course_name": "Black Turn",
+    "credits": 4,
+    "department": "Address Dept",
+    "semester_offered": "Spring",
+    "prerequisites": [
+      6
+    ]
+  },
+  {
+    "course_id": 20,
+    "course_name": "Baby Well",
+    "credits": 4,
+    "department": "Particular Dept",
+    "semester_offered": "Spring",
+    "prerequisites": []
+  },
+  {
+    "course_id": 21,
+    "course_name": "Activity Left",
+    "credits": 3,
+    "department": "Under Dept",
+    "semester_offered": "Fall",
+    "prerequisites": [
+      23,
+      32,
+      9
+    ]
+  },
+  {
+    "course_id": 22,
+    "course_name": "Walk See",
+    "credits": 4,
+    "department": "Election Dept",
+    "semester_offered": "Fall",
+    "prerequisites": [
+      48,
+      12,
+      47
+    ]
+  },
+  {
+    "course_id": 23,
+    "course_name": "Enjoy Particularly",
+    "credits": 4,
+    "department": "Option Dept",
+    "semester_offered": "Summer",
+    "prerequisites": [
+      50,
+      10
+    ]
+  },
+  {
+    "course_id": 24,
+    "course_name": "Of Law",
+    "credits": 4,
+    "department": "Than Dept",
+    "semester_offered": "Spring",
+    "prerequisites": [
+      47,
+      46
+    ]
+  },
+  {
+    "course_id": 25,
+    "course_name": "Against Relate",
+    "credits": 3,
+    "department": "Plant Dept",
+    "semester_offered": "Summer",
+    "prerequisites": [
+      15
+    ]
+  },
+  {
+    "course_id": 26,
+    "course_name": "Collection Instead",
+    "credits": 4,
+    "department": "Structure Dept",
+    "semester_offered": "Spring",
+    "prerequisites": [
+      47,
+      26,
+      50
+    ]
+  },
+  {
+    "course_id": 27,
+    "course_name": "Country Develop",
+    "credits": 3,
+    "department": "Clear Dept",
+    "semester_offered": "Summer",
+    "prerequisites": []
+  },
+  {
+    "course_id": 28,
+    "course_name": "Degree Fire",
+    "credits": 4,
+    "department": "Time Dept",
+    "semester_offered": "Fall",
+    "prerequisites": [
+      3
+    ]
+  },
+  {
+    "course_id": 29,
+    "course_name": "Entire Allow",
+    "credits": 4,
+    "department": "Study Dept",
+    "semester_offered": "Fall",
+    "prerequisites": [
+      47,
+      11
+    ]
+  },
+  {
+    "course_id": 30,
+    "course_name": "Anyone Civil",
+    "credits": 4,
+    "department": "Ahead Dept",
+    "semester_offered": "Fall",
+    "prerequisites": []
+  },
+  {
+    "course_id": 31,
+    "course_name": "Education Imagine",
+    "credits": 3,
+    "department": "Science Dept",
+    "semester_offered": "Spring",
+    "prerequisites": [
+      14
+    ]
+  },
+  {
+    "course_id": 32,
+    "course_name": "Support Present",
+    "credits": 4,
+    "department": "Imagine Dept",
+    "semester_offered": "Fall",
+    "prerequisites": [
+      4,
+      34,
+      44
+    ]
+  },
+  {
+    "course_id": 33,
+    "course_name": "Movement Project",
+    "credits": 4,
+    "department": "Situation Dept",
+    "semester_offered": "Spring",
+    "prerequisites": [
+      5
+    ]
+  },
+  {
+    "course_id": 34,
+    "course_name": "Should Race",
+    "credits": 4,
+    "department": "West Dept",
+    "semester_offered": "Fall",
+    "prerequisites": [
+      49
+    ]
+  },
+  {
+    "course_id": 35,
+    "course_name": "Simple Strong",
+    "credits": 4,
+    "department": "Rest Dept",
+    "semester_offered": "Summer",
+    "prerequisites": [
+      38,
+      14
+    ]
+  },
+  {
+    "course_id": 36,
+    "course_name": "Save Congress",
+    "credits": 3,
+    "department": "Couple Dept",
+    "semester_offered": "Summer",
+    "prerequisites": []
+  },
+  {
+    "course_id": 37,
+    "course_name": "Leave Leave",
+    "credits": 4,
+    "department": "Easy Dept",
+    "semester_offered": "Fall",
+    "prerequisites": [
+      31,
+      43
+    ]
+  },
+  {
+    "course_id": 38,
+    "course_name": "Federal Clearly",
+    "credits": 4,
+    "department": "Campaign Dept",
+    "semester_offered": "Fall",
+    "prerequisites": [
+      32,
+      4
+    ]
+  },
+  {
+    "course_id": 39,
+    "course_name": "Design Guy",
+    "credits": 4,
+    "department": "Key Dept",
+    "semester_offered": "Fall",
+    "prerequisites": [
+      34,
+      44,
+      35
+    ]
+  },
+  {
+    "course_id": 40,
+    "course_name": "Development None",
+    "credits": 3,
+    "department": "Loss Dept",
+    "semester_offered": "Spring",
+    "prerequisites": [
+      10,
+      31
+    ]
+  },
+  {
+    "course_id": 41,
+    "course_name": "Among Me",
+    "credits": 4,
+    "department": "Herself Dept",
+    "semester_offered": "Summer",
+    "prerequisites": []
+  },
+  {
+    "course_id": 42,
+    "course_name": "Cost Newspaper",
+    "credits": 3,
+    "department": "Care Dept",
+    "semester_offered": "Fall",
+    "prerequisites": [
+      30,
+      20
+    ]
+  },
+  {
+    "course_id": 43,
+    "course_name": "Magazine Adult",
+    "credits": 3,
+    "department": "Thus Dept",
+    "semester_offered": "Summer",
+    "prerequisites": [
+      15,
+      9,
+      1
+    ]
+  },
+  {
+    "course_id": 44,
+    "course_name": "Word Painting",
+    "credits": 4,
+    "department": "Last Dept",
+    "semester_offered": "Summer",
+    "prerequisites": [
+      10
+    ]
+  },
+  {
+    "course_id": 45,
+    "course_name": "Future Nation",
+    "credits": 4,
+    "department": "Decade Dept",
+    "semester_offered": "Spring",
+    "prerequisites": [
+      21,
+      12
+    ]
+  },
+  {
+    "course_id": 46,
+    "course_name": "Pressure What",
+    "credits": 4,
+    "department": "Walk Dept",
+    "semester_offered": "Fall",
+    "prerequisites": [
+      36
+    ]
+  },
+  {
+    "course_id": 47,
+    "course_name": "Attention Five",
+    "credits": 3,
+    "department": "Special Dept",
+    "semester_offered": "Fall",
+    "prerequisites": [
+      18,
+      20
+    ]
+  },
+  {
+    "course_id": 48,
+    "course_name": "Customer Feel",
+    "credits": 4,
+    "department": "Exactly Dept",
+    "semester_offered": "Spring",
+    "prerequisites": []
+  },
+  {
+    "course_id": 49,
+    "course_name": "Authority Medical",
+    "credits": 3,
+    "department": "Bill Dept",
+    "semester_offered": "Summer",
+    "prerequisites": [
+      16
+    ]
+  },
+  {
+    "course_id": 50,
+    "course_name": "Effort Record",
+    "credits": 3,
+    "department": "This Dept",
+    "semester_offered": "Fall",
+    "prerequisites": [
+      49,
+      28,
+      35
+    ]
+  }
+]

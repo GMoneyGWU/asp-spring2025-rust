@@ -1,0 +1,1506 @@
+[
+  {
+    "schedule_id": "4b242205-0910-4601-acd6-bd96ac605b57",
+    "course_id": 22,
+    "professor_id": 11,
+    "semester": "Summer",
+    "days_offered": [
+      "Monday",
+      "Tuesday"
+    ],
+    "start_time": "15:00",
+    "end_time": "16:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "b7cb1d3c-4004-442f-9666-fc1901a93682",
+    "course_id": 11,
+    "professor_id": 8,
+    "semester": "Fall",
+    "days_offered": [
+      "Tuesday",
+      "Monday"
+    ],
+    "start_time": "12:00",
+    "end_time": "19:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "c804c428-01f6-400b-a051-03ba79f4d610",
+    "course_id": 35,
+    "professor_id": 3,
+    "semester": "Fall",
+    "days_offered": [
+      "Tuesday",
+      "Friday",
+      "Thursday"
+    ],
+    "start_time": "13:00",
+    "end_time": "17:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "7b891141-493a-4b50-97fc-10e6d5e2a11c",
+    "course_id": 18,
+    "professor_id": 19,
+    "semester": "Summer",
+    "days_offered": [
+      "Wednesday"
+    ],
+    "start_time": "9:00",
+    "end_time": "13:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "6793e360-f556-4f23-842a-ee9f220a7f53",
+    "course_id": 5,
+    "professor_id": 10,
+    "semester": "Fall",
+    "days_offered": [
+      "Wednesday",
+      "Monday"
+    ],
+    "start_time": "8:00",
+    "end_time": "16:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "b51f7799-5a44-41f5-bcac-5664789dd74c",
+    "course_id": 15,
+    "professor_id": 24,
+    "semester": "Spring",
+    "days_offered": [
+      "Tuesday"
+    ],
+    "start_time": "9:00",
+    "end_time": "11:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "1762285a-dd62-4705-ab73-65c850ab0328",
+    "course_id": 48,
+    "professor_id": 5,
+    "semester": "Summer",
+    "days_offered": [
+      "Thursday",
+      "Monday",
+      "Friday"
+    ],
+    "start_time": "16:00",
+    "end_time": "17:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "5ef35c2a-695b-4776-9162-219986f191a3",
+    "course_id": 44,
+    "professor_id": 4,
+    "semester": "Summer",
+    "days_offered": [
+      "Wednesday"
+    ],
+    "start_time": "11:00",
+    "end_time": "15:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "8fe6deb4-680d-48f2-ac30-dff696ac79fd",
+    "course_id": 31,
+    "professor_id": 15,
+    "semester": "Summer",
+    "days_offered": [
+      "Monday",
+      "Tuesday"
+    ],
+    "start_time": "11:00",
+    "end_time": "17:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "a896d3af-ba65-4cc5-93e8-08d01e9b2d31",
+    "course_id": 28,
+    "professor_id": 22,
+    "semester": "Fall",
+    "days_offered": [
+      "Tuesday",
+      "Monday",
+      "Thursday"
+    ],
+    "start_time": "14:00",
+    "end_time": "17:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "60e02061-f9ed-402e-a0c3-76dfd5e50b24",
+    "course_id": 14,
+    "professor_id": 23,
+    "semester": "Spring",
+    "days_offered": [
+      "Wednesday",
+      "Monday",
+      "Thursday"
+    ],
+    "start_time": "11:00",
+    "end_time": "13:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "0889b6c7-c665-4d34-a1a4-c9f3c4eaabea",
+    "course_id": 44,
+    "professor_id": 24,
+    "semester": "Summer",
+    "days_offered": [
+      "Monday",
+      "Wednesday",
+      "Tuesday"
+    ],
+    "start_time": "14:00",
+    "end_time": "18:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "9d4882db-52bf-4242-963d-caf747cb058c",
+    "course_id": 12,
+    "professor_id": 17,
+    "semester": "Summer",
+    "days_offered": [
+      "Thursday",
+      "Monday"
+    ],
+    "start_time": "10:00",
+    "end_time": "16:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "bed8a696-8586-467f-91c2-c2c47963a4a2",
+    "course_id": 41,
+    "professor_id": 18,
+    "semester": "Fall",
+    "days_offered": [
+      "Thursday",
+      "Tuesday",
+      "Monday"
+    ],
+    "start_time": "9:00",
+    "end_time": "12:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "60238b72-194f-4fc5-9660-c8aab284d583",
+    "course_id": 5,
+    "professor_id": 6,
+    "semester": "Summer",
+    "days_offered": [
+      "Friday",
+      "Thursday"
+    ],
+    "start_time": "10:00",
+    "end_time": "13:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "842523e4-d24a-45f4-a82c-036f323a87b4",
+    "course_id": 29,
+    "professor_id": 5,
+    "semester": "Spring",
+    "days_offered": [
+      "Thursday",
+      "Tuesday",
+      "Monday"
+    ],
+    "start_time": "16:00",
+    "end_time": "19:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "1c72d684-4356-4d44-8205-4ff58c449001",
+    "course_id": 4,
+    "professor_id": 29,
+    "semester": "Fall",
+    "days_offered": [
+      "Thursday",
+      "Monday"
+    ],
+    "start_time": "9:00",
+    "end_time": "12:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "9ccdf7c9-775b-4118-8647-3fab83b099ec",
+    "course_id": 50,
+    "professor_id": 20,
+    "semester": "Summer",
+    "days_offered": [
+      "Friday"
+    ],
+    "start_time": "8:00",
+    "end_time": "11:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "c182f258-3eae-4e4e-8399-43357c8a09ba",
+    "course_id": 30,
+    "professor_id": 4,
+    "semester": "Spring",
+    "days_offered": [
+      "Monday",
+      "Friday",
+      "Tuesday"
+    ],
+    "start_time": "14:00",
+    "end_time": "18:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "d8690e0b-24ae-4f44-928b-0915ebb03d6d",
+    "course_id": 14,
+    "professor_id": 18,
+    "semester": "Summer",
+    "days_offered": [
+      "Tuesday",
+      "Thursday",
+      "Friday"
+    ],
+    "start_time": "11:00",
+    "end_time": "15:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "c2efd519-77b5-4913-bac0-2aae36cf8e6c",
+    "course_id": 7,
+    "professor_id": 10,
+    "semester": "Summer",
+    "days_offered": [
+      "Thursday",
+      "Friday"
+    ],
+    "start_time": "8:00",
+    "end_time": "15:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "b8cb5965-abd3-4a3d-9462-cff59daedf8d",
+    "course_id": 46,
+    "professor_id": 26,
+    "semester": "Spring",
+    "days_offered": [
+      "Wednesday",
+      "Friday",
+      "Tuesday"
+    ],
+    "start_time": "9:00",
+    "end_time": "11:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "f7e3dbb3-a34b-4156-9ef8-d1cf1af3a971",
+    "course_id": 6,
+    "professor_id": 19,
+    "semester": "Fall",
+    "days_offered": [
+      "Thursday",
+      "Wednesday"
+    ],
+    "start_time": "15:00",
+    "end_time": "17:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "b84b9d9b-2a72-427b-ae93-05ad8966245f",
+    "course_id": 30,
+    "professor_id": 28,
+    "semester": "Fall",
+    "days_offered": [
+      "Wednesday"
+    ],
+    "start_time": "12:00",
+    "end_time": "17:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "ccccaac4-400c-4dc1-b899-b7e741efa2f4",
+    "course_id": 27,
+    "professor_id": 17,
+    "semester": "Summer",
+    "days_offered": [
+      "Thursday"
+    ],
+    "start_time": "14:00",
+    "end_time": "16:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "5d7a6a73-c680-47cf-b2e3-085213c16442",
+    "course_id": 6,
+    "professor_id": 1,
+    "semester": "Summer",
+    "days_offered": [
+      "Friday"
+    ],
+    "start_time": "14:00",
+    "end_time": "18:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "845cabfe-be01-49e0-b70a-91e081dcf912",
+    "course_id": 29,
+    "professor_id": 23,
+    "semester": "Fall",
+    "days_offered": [
+      "Tuesday"
+    ],
+    "start_time": "9:00",
+    "end_time": "14:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "b0e963db-841d-4d42-9322-ca306a3fc64b",
+    "course_id": 35,
+    "professor_id": 12,
+    "semester": "Spring",
+    "days_offered": [
+      "Thursday",
+      "Tuesday",
+      "Friday"
+    ],
+    "start_time": "11:00",
+    "end_time": "14:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "b9fc5c97-27fa-422c-9912-4109b3322ec4",
+    "course_id": 38,
+    "professor_id": 28,
+    "semester": "Summer",
+    "days_offered": [
+      "Tuesday",
+      "Wednesday"
+    ],
+    "start_time": "17:00",
+    "end_time": "18:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "c883cb84-cb57-4e82-8209-60e8a6650d62",
+    "course_id": 21,
+    "professor_id": 11,
+    "semester": "Spring",
+    "days_offered": [
+      "Wednesday"
+    ],
+    "start_time": "13:00",
+    "end_time": "18:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "131621c1-a354-4e6b-ac55-2c2603451305",
+    "course_id": 17,
+    "professor_id": 20,
+    "semester": "Spring",
+    "days_offered": [
+      "Thursday",
+      "Friday",
+      "Wednesday"
+    ],
+    "start_time": "10:00",
+    "end_time": "17:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "ce454d3f-8505-40da-917f-8586dec0f729",
+    "course_id": 20,
+    "professor_id": 7,
+    "semester": "Fall",
+    "days_offered": [
+      "Wednesday",
+      "Tuesday",
+      "Thursday"
+    ],
+    "start_time": "8:00",
+    "end_time": "16:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "706a2d11-b89d-48f2-87d6-1daec2a0122f",
+    "course_id": 41,
+    "professor_id": 28,
+    "semester": "Spring",
+    "days_offered": [
+      "Friday",
+      "Tuesday",
+      "Monday"
+    ],
+    "start_time": "9:00",
+    "end_time": "14:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "621f58bf-b99a-4663-b492-41cb599042ae",
+    "course_id": 30,
+    "professor_id": 4,
+    "semester": "Summer",
+    "days_offered": [
+      "Monday"
+    ],
+    "start_time": "17:00",
+    "end_time": "19:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "c87c1404-ee59-4427-82f8-18fe668b74b9",
+    "course_id": 1,
+    "professor_id": 30,
+    "semester": "Summer",
+    "days_offered": [
+      "Wednesday",
+      "Friday"
+    ],
+    "start_time": "9:00",
+    "end_time": "17:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "7886aed9-eb11-4ae7-a4bf-b64764c37df1",
+    "course_id": 49,
+    "professor_id": 22,
+    "semester": "Spring",
+    "days_offered": [
+      "Tuesday",
+      "Monday",
+      "Thursday"
+    ],
+    "start_time": "16:00",
+    "end_time": "17:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "10a86af0-3caf-4163-970a-0cc8930c1aa1",
+    "course_id": 23,
+    "professor_id": 17,
+    "semester": "Spring",
+    "days_offered": [
+      "Tuesday",
+      "Wednesday"
+    ],
+    "start_time": "15:00",
+    "end_time": "17:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "ea898d70-ddb0-4111-9859-26f2c306392e",
+    "course_id": 3,
+    "professor_id": 28,
+    "semester": "Fall",
+    "days_offered": [
+      "Friday"
+    ],
+    "start_time": "13:00",
+    "end_time": "13:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "b286d85f-9676-49fc-9433-a6d214a9e9ff",
+    "course_id": 40,
+    "professor_id": 4,
+    "semester": "Fall",
+    "days_offered": [
+      "Wednesday",
+      "Thursday",
+      "Monday"
+    ],
+    "start_time": "16:00",
+    "end_time": "18:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "77082299-8cad-48a8-8a15-b73b9ad60272",
+    "course_id": 18,
+    "professor_id": 20,
+    "semester": "Fall",
+    "days_offered": [
+      "Tuesday",
+      "Friday"
+    ],
+    "start_time": "12:00",
+    "end_time": "12:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "3798e202-7bf6-4cdc-87a4-6ae9789b5fb9",
+    "course_id": 39,
+    "professor_id": 17,
+    "semester": "Spring",
+    "days_offered": [
+      "Monday",
+      "Thursday"
+    ],
+    "start_time": "10:00",
+    "end_time": "15:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "09c710f3-f015-4eb3-b4da-f73fe6d2a249",
+    "course_id": 27,
+    "professor_id": 26,
+    "semester": "Spring",
+    "days_offered": [
+      "Thursday",
+      "Monday"
+    ],
+    "start_time": "9:00",
+    "end_time": "14:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "3afc7e60-7250-4213-be42-bf074ba77de7",
+    "course_id": 46,
+    "professor_id": 20,
+    "semester": "Spring",
+    "days_offered": [
+      "Friday"
+    ],
+    "start_time": "16:00",
+    "end_time": "18:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "b5c0e750-67b9-405f-b316-31d67b0aa473",
+    "course_id": 2,
+    "professor_id": 28,
+    "semester": "Summer",
+    "days_offered": [
+      "Friday",
+      "Tuesday",
+      "Wednesday"
+    ],
+    "start_time": "13:00",
+    "end_time": "17:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "041c77da-62b1-4170-a341-eca4278b5472",
+    "course_id": 20,
+    "professor_id": 30,
+    "semester": "Fall",
+    "days_offered": [
+      "Monday",
+      "Wednesday",
+      "Friday"
+    ],
+    "start_time": "15:00",
+    "end_time": "19:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "13172f56-67b6-4b3e-996b-1eed1381ea17",
+    "course_id": 48,
+    "professor_id": 1,
+    "semester": "Spring",
+    "days_offered": [
+      "Friday"
+    ],
+    "start_time": "8:00",
+    "end_time": "18:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "2d02bcf0-94af-4fde-8dc2-a1f75d3c0fd7",
+    "course_id": 42,
+    "professor_id": 7,
+    "semester": "Fall",
+    "days_offered": [
+      "Wednesday"
+    ],
+    "start_time": "12:00",
+    "end_time": "16:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "ce153c74-a0da-4cc4-84e7-621abce1ea18",
+    "course_id": 33,
+    "professor_id": 18,
+    "semester": "Summer",
+    "days_offered": [
+      "Monday"
+    ],
+    "start_time": "13:00",
+    "end_time": "17:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "3c446e52-8d61-4004-80bc-0edb4224647a",
+    "course_id": 44,
+    "professor_id": 14,
+    "semester": "Fall",
+    "days_offered": [
+      "Friday"
+    ],
+    "start_time": "9:00",
+    "end_time": "13:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "6dc5146f-01c0-4d62-8ef3-aec9223fbf9e",
+    "course_id": 1,
+    "professor_id": 5,
+    "semester": "Summer",
+    "days_offered": [
+      "Friday",
+      "Monday"
+    ],
+    "start_time": "10:00",
+    "end_time": "15:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "e47e4038-a65a-4ab6-b0a6-cde05ae64db1",
+    "course_id": 25,
+    "professor_id": 26,
+    "semester": "Summer",
+    "days_offered": [
+      "Friday"
+    ],
+    "start_time": "9:00",
+    "end_time": "16:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "30035b75-5d5b-4d3a-a1dd-d2e0da85c437",
+    "course_id": 44,
+    "professor_id": 3,
+    "semester": "Summer",
+    "days_offered": [
+      "Monday",
+      "Friday",
+      "Wednesday"
+    ],
+    "start_time": "14:00",
+    "end_time": "15:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "ac950098-9984-4bd8-a9f2-f3c696314996",
+    "course_id": 7,
+    "professor_id": 28,
+    "semester": "Summer",
+    "days_offered": [
+      "Thursday"
+    ],
+    "start_time": "14:00",
+    "end_time": "17:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "b6527d56-bf3e-480b-a934-e1ece40b88f9",
+    "course_id": 44,
+    "professor_id": 11,
+    "semester": "Summer",
+    "days_offered": [
+      "Friday",
+      "Tuesday"
+    ],
+    "start_time": "12:00",
+    "end_time": "17:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "fc80b7f8-346a-4920-a83f-6f6612531190",
+    "course_id": 27,
+    "professor_id": 18,
+    "semester": "Fall",
+    "days_offered": [
+      "Tuesday",
+      "Monday"
+    ],
+    "start_time": "9:00",
+    "end_time": "14:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "1bf6b342-35de-4ede-98a1-abcb1cc09828",
+    "course_id": 29,
+    "professor_id": 14,
+    "semester": "Spring",
+    "days_offered": [
+      "Friday",
+      "Monday",
+      "Thursday"
+    ],
+    "start_time": "15:00",
+    "end_time": "15:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "661a8b43-9bcc-40ac-826c-590d99ce30f0",
+    "course_id": 44,
+    "professor_id": 16,
+    "semester": "Fall",
+    "days_offered": [
+      "Friday",
+      "Monday"
+    ],
+    "start_time": "11:00",
+    "end_time": "12:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "b2caead7-d461-4d06-b233-14b938fb043f",
+    "course_id": 50,
+    "professor_id": 1,
+    "semester": "Fall",
+    "days_offered": [
+      "Wednesday"
+    ],
+    "start_time": "14:00",
+    "end_time": "16:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "2247abd0-79d6-4be1-84c1-49e0766160ad",
+    "course_id": 12,
+    "professor_id": 13,
+    "semester": "Spring",
+    "days_offered": [
+      "Monday",
+      "Thursday",
+      "Tuesday"
+    ],
+    "start_time": "8:00",
+    "end_time": "9:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "e55a1b62-35d3-400a-b749-ed7dd5904248",
+    "course_id": 21,
+    "professor_id": 7,
+    "semester": "Spring",
+    "days_offered": [
+      "Wednesday",
+      "Friday",
+      "Thursday"
+    ],
+    "start_time": "9:00",
+    "end_time": "17:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "ea6a4fff-d269-4a99-9001-6a5c8ffe5899",
+    "course_id": 38,
+    "professor_id": 16,
+    "semester": "Fall",
+    "days_offered": [
+      "Thursday"
+    ],
+    "start_time": "10:00",
+    "end_time": "15:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "9050fce6-0227-4a9f-944a-6462ef95f5cf",
+    "course_id": 36,
+    "professor_id": 20,
+    "semester": "Fall",
+    "days_offered": [
+      "Friday"
+    ],
+    "start_time": "14:00",
+    "end_time": "18:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "fc8691ad-d9c9-49eb-a68a-8af4074cd6a4",
+    "course_id": 22,
+    "professor_id": 28,
+    "semester": "Spring",
+    "days_offered": [
+      "Wednesday"
+    ],
+    "start_time": "8:00",
+    "end_time": "19:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "32601840-0b0c-41cc-b726-a08779ffc61b",
+    "course_id": 34,
+    "professor_id": 3,
+    "semester": "Fall",
+    "days_offered": [
+      "Tuesday"
+    ],
+    "start_time": "8:00",
+    "end_time": "9:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "f4abc523-d275-461f-ae01-1d187330fb07",
+    "course_id": 29,
+    "professor_id": 9,
+    "semester": "Summer",
+    "days_offered": [
+      "Thursday"
+    ],
+    "start_time": "14:00",
+    "end_time": "15:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "b326559f-b06f-4f65-9f04-4f1fd6072c93",
+    "course_id": 5,
+    "professor_id": 19,
+    "semester": "Spring",
+    "days_offered": [
+      "Tuesday",
+      "Thursday"
+    ],
+    "start_time": "14:00",
+    "end_time": "15:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "f96c5794-bc4a-4e9d-9dc5-b57aa497bba6",
+    "course_id": 35,
+    "professor_id": 23,
+    "semester": "Summer",
+    "days_offered": [
+      "Monday"
+    ],
+    "start_time": "8:00",
+    "end_time": "11:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "97b50bbe-189f-46a4-ac0f-af90a78a7f1c",
+    "course_id": 25,
+    "professor_id": 11,
+    "semester": "Fall",
+    "days_offered": [
+      "Monday",
+      "Wednesday",
+      "Tuesday"
+    ],
+    "start_time": "13:00",
+    "end_time": "14:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "a32d03c4-7c89-4efb-9fb7-57537ef7804d",
+    "course_id": 10,
+    "professor_id": 15,
+    "semester": "Spring",
+    "days_offered": [
+      "Tuesday",
+      "Thursday"
+    ],
+    "start_time": "16:00",
+    "end_time": "18:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "9fb5ea61-cf68-4aa1-8c21-8e03950b7c2a",
+    "course_id": 22,
+    "professor_id": 29,
+    "semester": "Spring",
+    "days_offered": [
+      "Thursday",
+      "Tuesday",
+      "Monday"
+    ],
+    "start_time": "9:00",
+    "end_time": "19:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "6c63f886-ee99-489e-926f-7b21fb791677",
+    "course_id": 28,
+    "professor_id": 22,
+    "semester": "Fall",
+    "days_offered": [
+      "Monday",
+      "Friday"
+    ],
+    "start_time": "11:00",
+    "end_time": "12:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "078c0d73-bbcd-488b-b296-684fafaf6815",
+    "course_id": 37,
+    "professor_id": 21,
+    "semester": "Spring",
+    "days_offered": [
+      "Tuesday",
+      "Monday"
+    ],
+    "start_time": "13:00",
+    "end_time": "18:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "9310218d-6ae2-48d6-912d-8ccc54f74e6d",
+    "course_id": 17,
+    "professor_id": 16,
+    "semester": "Spring",
+    "days_offered": [
+      "Monday",
+      "Thursday"
+    ],
+    "start_time": "9:00",
+    "end_time": "14:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "fab2dfa6-f300-44f2-9379-d306b81fc3a1",
+    "course_id": 12,
+    "professor_id": 28,
+    "semester": "Spring",
+    "days_offered": [
+      "Tuesday",
+      "Friday",
+      "Wednesday"
+    ],
+    "start_time": "9:00",
+    "end_time": "12:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "113f6ec2-7a5f-4389-8411-598d4519c48f",
+    "course_id": 26,
+    "professor_id": 14,
+    "semester": "Summer",
+    "days_offered": [
+      "Friday",
+      "Monday"
+    ],
+    "start_time": "8:00",
+    "end_time": "13:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "618f3642-41f6-4818-b0c2-c28d06de507a",
+    "course_id": 9,
+    "professor_id": 22,
+    "semester": "Summer",
+    "days_offered": [
+      "Friday"
+    ],
+    "start_time": "16:00",
+    "end_time": "18:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "d6abacda-c189-439a-93b6-36845f7a961c",
+    "course_id": 22,
+    "professor_id": 16,
+    "semester": "Spring",
+    "days_offered": [
+      "Tuesday"
+    ],
+    "start_time": "12:00",
+    "end_time": "13:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "bb30b4b6-1987-47ff-b62f-e46e03234f9c",
+    "course_id": 35,
+    "professor_id": 17,
+    "semester": "Fall",
+    "days_offered": [
+      "Wednesday",
+      "Tuesday"
+    ],
+    "start_time": "9:00",
+    "end_time": "13:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "d48d2c67-c60a-452a-806f-26177a236a25",
+    "course_id": 17,
+    "professor_id": 26,
+    "semester": "Spring",
+    "days_offered": [
+      "Friday",
+      "Tuesday",
+      "Wednesday"
+    ],
+    "start_time": "9:00",
+    "end_time": "17:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "d967897a-ee3c-465e-87ac-bf271c8cf401",
+    "course_id": 32,
+    "professor_id": 29,
+    "semester": "Summer",
+    "days_offered": [
+      "Friday",
+      "Monday",
+      "Tuesday"
+    ],
+    "start_time": "8:00",
+    "end_time": "12:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "e28560c3-837b-4652-980e-304800da7511",
+    "course_id": 33,
+    "professor_id": 24,
+    "semester": "Summer",
+    "days_offered": [
+      "Tuesday",
+      "Friday"
+    ],
+    "start_time": "14:00",
+    "end_time": "16:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "a03786aa-025c-4963-9538-8c46349bb9cc",
+    "course_id": 9,
+    "professor_id": 29,
+    "semester": "Fall",
+    "days_offered": [
+      "Tuesday",
+      "Wednesday"
+    ],
+    "start_time": "9:00",
+    "end_time": "12:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "f794d518-d450-42f1-b171-8583f83461ec",
+    "course_id": 19,
+    "professor_id": 24,
+    "semester": "Spring",
+    "days_offered": [
+      "Monday",
+      "Tuesday"
+    ],
+    "start_time": "8:00",
+    "end_time": "9:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "4efb2b3e-eca3-4f63-ac22-92f7632a3e5f",
+    "course_id": 21,
+    "professor_id": 14,
+    "semester": "Spring",
+    "days_offered": [
+      "Monday",
+      "Friday",
+      "Tuesday"
+    ],
+    "start_time": "15:00",
+    "end_time": "15:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "5d9246f1-bac6-451e-80b2-dec6212a1a54",
+    "course_id": 25,
+    "professor_id": 28,
+    "semester": "Summer",
+    "days_offered": [
+      "Wednesday",
+      "Friday",
+      "Tuesday"
+    ],
+    "start_time": "16:00",
+    "end_time": "16:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "f01ba377-d99d-4bfe-b6f0-ea87dca426cd",
+    "course_id": 31,
+    "professor_id": 22,
+    "semester": "Spring",
+    "days_offered": [
+      "Monday"
+    ],
+    "start_time": "11:00",
+    "end_time": "14:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "74ed3354-ce17-44b8-9795-a4765bb80eef",
+    "course_id": 21,
+    "professor_id": 9,
+    "semester": "Summer",
+    "days_offered": [
+      "Thursday"
+    ],
+    "start_time": "14:00",
+    "end_time": "18:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "9adcf459-37b5-4663-802f-fcaf5a871c8d",
+    "course_id": 48,
+    "professor_id": 1,
+    "semester": "Fall",
+    "days_offered": [
+      "Monday",
+      "Wednesday",
+      "Thursday"
+    ],
+    "start_time": "14:00",
+    "end_time": "18:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "b930febf-a6c3-4a90-bcef-8239dc24aec1",
+    "course_id": 50,
+    "professor_id": 30,
+    "semester": "Spring",
+    "days_offered": [
+      "Tuesday",
+      "Friday"
+    ],
+    "start_time": "9:00",
+    "end_time": "13:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "91ce1ad2-669d-49f4-8d37-f680b5946549",
+    "course_id": 34,
+    "professor_id": 27,
+    "semester": "Summer",
+    "days_offered": [
+      "Monday",
+      "Tuesday",
+      "Thursday"
+    ],
+    "start_time": "8:00",
+    "end_time": "12:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "8b734a90-0bef-4eb9-b747-087f85af824a",
+    "course_id": 38,
+    "professor_id": 15,
+    "semester": "Fall",
+    "days_offered": [
+      "Tuesday",
+      "Thursday",
+      "Friday"
+    ],
+    "start_time": "10:00",
+    "end_time": "12:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "0b14669e-6718-46db-b68e-af17d671047c",
+    "course_id": 3,
+    "professor_id": 25,
+    "semester": "Spring",
+    "days_offered": [
+      "Monday",
+      "Tuesday",
+      "Thursday"
+    ],
+    "start_time": "8:00",
+    "end_time": "19:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "b0bf7b6d-a40b-4111-b599-beedba1c582b",
+    "course_id": 30,
+    "professor_id": 4,
+    "semester": "Fall",
+    "days_offered": [
+      "Monday",
+      "Friday"
+    ],
+    "start_time": "10:00",
+    "end_time": "10:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "bb4bca93-ff88-4aaa-880b-3fb4614497a5",
+    "course_id": 19,
+    "professor_id": 29,
+    "semester": "Spring",
+    "days_offered": [
+      "Monday",
+      "Thursday",
+      "Friday"
+    ],
+    "start_time": "14:00",
+    "end_time": "18:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "a95e9865-a2c0-4fb3-9cbb-bceef4be5e4e",
+    "course_id": 12,
+    "professor_id": 12,
+    "semester": "Summer",
+    "days_offered": [
+      "Wednesday"
+    ],
+    "start_time": "9:00",
+    "end_time": "18:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "0230e4a1-7d02-4297-9f74-e0aaeb90729e",
+    "course_id": 42,
+    "professor_id": 5,
+    "semester": "Summer",
+    "days_offered": [
+      "Monday",
+      "Friday"
+    ],
+    "start_time": "8:00",
+    "end_time": "9:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "cc6ca81f-8e42-4b31-a32f-939bbe672519",
+    "course_id": 12,
+    "professor_id": 5,
+    "semester": "Summer",
+    "days_offered": [
+      "Tuesday",
+      "Friday",
+      "Monday"
+    ],
+    "start_time": "11:00",
+    "end_time": "16:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "fa141c21-7430-4eed-954f-424919bf345c",
+    "course_id": 8,
+    "professor_id": 2,
+    "semester": "Summer",
+    "days_offered": [
+      "Monday",
+      "Wednesday",
+      "Friday"
+    ],
+    "start_time": "17:00",
+    "end_time": "18:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "8a2a4cf7-0fd4-4153-be92-530522f20187",
+    "course_id": 23,
+    "professor_id": 19,
+    "semester": "Summer",
+    "days_offered": [
+      "Wednesday"
+    ],
+    "start_time": "13:00",
+    "end_time": "15:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  },
+  {
+    "schedule_id": "9e94d53e-91fe-4f00-92de-4d0a913b3478",
+    "course_id": 3,
+    "professor_id": 4,
+    "semester": "Fall",
+    "days_offered": [
+      "Tuesday"
+    ],
+    "start_time": "12:00",
+    "end_time": "18:00",
+    "room_number": "TBD",
+    "building": "Main Hall",
+    "delivery_mode": "in-person"
+  }
+]
