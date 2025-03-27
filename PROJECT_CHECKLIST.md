@@ -1,87 +1,112 @@
-# 🚀 Project Checklist
-
-This document tracks all steps and objectives required to take the **Class Scheduler App** into production across desktop, mobile, and (optionally) web platforms.
+# ✅ Class Scheduler App — Sequential Project Checklist
 
 ---
 
-## 🧱 1. Core Architecture Setup
+## 📁 1. Project Setup & Scaffolding
 
 | Task                                                   | Status     | Notes |
 |--------------------------------------------------------|------------|-------|
-| Project structure (`backend/`, `frontend/`, `data/`)   | ✅ Done     | Folder scaffolding complete |
-| Flutter frontend created (`flutter create`)            | ✅ Done     | Flutter CLI used to scaffold app |
-| Rust backend initialized (`cargo init`)                | ✅ Done     | Rust project initialized |
-| `flutter_rust_bridge` configured                       | ✅ Done     | Installed in both Flutter and Rust |
-| JSON data normalized & loaded into Rust                | ✅ Done     | Using `serde_json` |
-| Dart ↔ Rust integration working                        | 🟡 In Progress | `flutter_rust_bridge_codegen` pending |
-| Sample FFI function implemented (`hello_from_rust`)    | ✅ Done     | Confirmed callable |
+| Create project folders: `backend/`, `frontend/`, `data/` | ✅ Done     | Structured for Rust + Flutter separation |
+| Initialize Rust project (`cargo init backend`)         | ✅ Done     | Basic `main.rs` and `Cargo.toml` created |
+| Create Flutter frontend (`flutter create frontend`)    | ✅ Done     | Dart app created inside `frontend/` |
+| Normalize JSON files                                   | ✅ Done     | Data structured and organized |
+| Move JSON files to `backend/data/`                     | ✅ Done     | Files present but not parsed yet |
+| Set up `.gitignore`                                    | ✅ Done     | Prevents build artifacts from being tracked |
 
 ---
 
-## 🔌 2. Cross-Platform Compatibility
+## 🔧 2. Dependency Configuration
 
-| Platform         | Ready?      | Notes |
-|------------------|-------------|-------|
-| 🖥️ Desktop (macOS/Windows/Linux) | ✅ Yes     | Runs via `flutter run -d macos` etc. |
-| 📱 Mobile (iOS/Android)           | 🟡 Almost  | Needs emulator/device testing |
-| 🌐 Web (Flutter Web)              | 🔴 Not Yet | Requires API bridge or WASM support |
-
----
-
-## 🧪 3. Development Quality
-
-| Task                              | Status     | Notes |
-|-----------------------------------|------------|-------|
-| `.gitignore` configured           | ✅ Done     | Covers Rust + Flutter |
-| `README.md` written               | ✅ Done     | Includes setup, structure |
-| Unit tests (Rust + Flutter)       | 🔴 Not Yet | Needed for logic verification |
-| Logging & error handling (Rust)   | 🟡 In Progress | Add `log`, `anyhow` crates |
-| Clean separation of logic/UI      | 🟡 Partial  | More modularity as app grows |
+| Task                                                   | Status     | Notes |
+|--------------------------------------------------------|------------|-------|
+| Add Rust dependencies: `serde`, `serde_json`, `unqlite`, `flutter_rust_bridge` | ✅ Done | `Cargo.toml` configured |
+| Add Flutter dependency: `flutter_rust_bridge`          | ✅ Done     | In `pubspec.yaml` |
+| Install `flutter_rust_bridge_codegen`                  | ✅ Done     | For generating FFI bindings |
+| Add other optional crates (e.g., `anyhow`, `log`)      | ⬜️ Planned | For error handling/logging |
 
 ---
 
-## 📦 4. App Build & Packaging
+## 🛠️ 3. Data Parsing & Model Layer
 
-| Task                                 | Status     | Notes |
-|--------------------------------------|------------|-------|
-| Flutter desktop/mobile build         | 🟡 Soon     | Confirm `flutter build` output |
-| Flutter release mode (`--release`)   | 🔴 Not Yet | Needed for production testing |
-| Rust release build                   | 🔴 Not Yet | Use `cargo build --release` |
-| Asset bundling + FFI verification    | 🔴 Not Yet | Ensure `bridge_generated.dart` built |
+| Task                                                   | Status     | Notes |
+|--------------------------------------------------------|------------|-------|
+| Create Rust structs using `serde` for JSON files       | 🔜 Todo     | Derive from normalized data |
+| Parse JSON files using `serde_json`                    | 🔜 Todo     | Begin with `courses.json` |
+| Load data into structs and confirm via `cargo run`     | 🔜 Todo     | Print or log parsed values |
+| Create Dart models (optional if needed)                | ⬜️ Planned | For UI-side data handling |
 
 ---
 
-## 🔐 5. Security & Stability
+## 🔌 4. Flutter ↔ Rust Bridge Integration
+
+| Task                                                   | Status     | Notes |
+|--------------------------------------------------------|------------|-------|
+| Create `bridge.rs` and stub function                   | ✅ Done     | `hello_from_rust()` created |
+| Generate `bridge_generated.dart` with codegen          | ✅ Done     | Connected to Flutter |
+| Call Rust function from Flutter                        | ✅ Done     | Validated via console |
+| Create API function: `get_courses()` or similar        | ⬜️ Planned | Expose course data via bridge |
+| Handle bridge errors and return types                  | ⬜️ Planned | Use `Result` and error messages |
+
+---
+
+## 🧱 5. Core UI & Logic Implementation
+
+| Task                                                   | Status     | Notes |
+|--------------------------------------------------------|------------|-------|
+| Build course browsing UI in Flutter                    | ⬜️ Planned | List of courses from Rust |
+| Create student dashboard screen                        | ⬜️ Planned | View upcoming schedule |
+| Add course detail view/modal                           | ⬜️ Planned | Show description, credits |
+| Add preferences input UI (time, course prefs)          | ⬜️ Planned | Pass to backend |
+| Implement Rust logic: conflict detection               | ⬜️ Planned | Compare time slots, constraints |
+| Implement Rust logic: schedule suggestion              | ⬜️ Planned | Based on degree + preferences |
+| Return suggestions from Rust to Flutter                | ⬜️ Planned | FFI with structured data |
+| Render recommended schedule in Flutter grid/list       | ⬜️ Planned | Display based on return data |
+
+---
+
+## 🧪 6. Testing & Quality Assurance
+
+| Task                                                   | Status     | Notes |
+|--------------------------------------------------------|------------|-------|
+| Add Rust unit tests for logic                          | ⬜️ Planned | Start with conflict checker |
+| Add Flutter unit/widget tests                          | ⬜️ Planned | Schedule rendering |
+| Handle invalid JSON / input data                       | ⬜️ Planned | Use `anyhow`, validate inputs |
+| Add logging (`log`, `env_logger`)                      | ⬜️ Planned | Helpful during development |
+
+---
+
+## 🌍 7. Platform Testing
 
 | Task                                  | Status     | Notes |
 |---------------------------------------|------------|-------|
-| Input validation (Rust/Dart)          | 🔴 Not Yet | Guard inputs and schedule logic |
-| Error handling (try/catch, Result)    | 🟡 Partial  | Add user-friendly error handling |
-| Secure local data storage (UnQLite)   | 🔴 Not Yet | Add encryption or export protection if needed |
-| API protection (for web mode)         | 🔴 Not Yet | Add CORS & rate limiting if needed |
+| Test on macOS/Linux/Windows desktop   | ✅ Done     | Using `flutter run -d macos` etc. |
+| Test on Android/iOS mobile            | ⬜️ Planned | Emulator or device |
+| Confirm FFI works across platforms    | ⬜️ Planned | Consistent bridge behavior |
+| Web compatibility (API/WASM)          | ⬜️ Optional | Rust HTTP API or WASM later |
 
 ---
 
-## ☁️ 6. Web Support Plan (Optional)
+## 📦 8. Build & Deployment
 
-| Task                                   | Status     | Notes |
-|----------------------------------------|------------|-------|
-| Design API-based backend (e.g. Axum)   | 🟡 Planned  | Convert core logic into HTTP handlers |
-| Host Rust API (e.g. Railway, Render)   | ⬜️ Planned | Connect Flutter Web to backend |
-| Enable Flutter web build               | ✅ Done     | `flutter config --enable-web` |
-| Enable CORS and HTTPS                  | ⬜️ Planned | Needed for production access |
+| Task                                           | Status     | Notes |
+|------------------------------------------------|------------|-------|
+| Build Rust backend in release mode            | ⬜️ Planned | `cargo build --release` |
+| Build Flutter frontend in release mode        | ⬜️ Planned | `flutter build` commands |
+| Package mobile build (signing configs)        | ⬜️ Planned | Android/iOS release steps |
+| Package desktop builds (DMG, EXE, AppImage)   | ⬜️ Planned | For public release |
+| Set up CI (GitHub Actions, tests, linting)    | ⬜️ Planned | Automate builds/tests |
 
 ---
 
-## 🚀 7. Release & Deployment
+## 🧾 9. Documentation, Licensing & Cleanup
 
-| Task                              | Status     | Notes |
-|-----------------------------------|------------|-------|
-| Android signing + keystore setup | ⬜️ Planned | Use `keytool`, add to `key.properties` |
-| Desktop installer packaging       | ⬜️ Planned | DMG, EXE, or AppImage |
-| CI/CD setup (GitHub Actions)      | ⬜️ Planned | Automate `flutter build` and `cargo test` |
-| Release tagging / changelog       | ⬜️ Planned | `git tag` and `CHANGELOG.md` |
-| Publish to GitHub       | ⬜️ Planned | First stable release |
+| Task                                  | Status     | Notes |
+|---------------------------------------|------------|-------|
+| Finalize README.md with examples      | ✅ Done     | Explains structure, build steps |
+| Create `PRODUCTION_CHECKLIST.md`     | ✅ Done     | This file! |
+| Add `LICENSE` (MIT, Apache, etc.)    | ⬜️ Planned | Required for open source |
+| Add `CONTRIBUTING.md` (optional)     | ⬜️ Planned | Guidelines for collaborators |
+| Add usage/setup guide for new devs   | ⬜️ Planned | `docs/SETUP.md` or wiki page |
 
 ---
 
@@ -90,10 +115,9 @@ This document tracks all steps and objectives required to take the **Class Sched
 | Emoji | Meaning     |
 |--------|--------------|
 | ✅     | Complete     |
-| 🟡     | In Progress  |
-| 🔴     | Not Started  |
-| ⬜️     | Planned      |
+| 🔜     | Todo (Immediate) |
+| ⬜️     | Planned (Later) |
 
 ---
 
-_Keep this file updated as the project matures. Production readiness is a process — and this checklist will keep your team_
+_Use this file to track team progress and milestone completion. As you implement and test features, update the statuses and move forward with confidence._  
