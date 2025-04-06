@@ -78,18 +78,18 @@ These Dart-side functions call Rust APIs and control the user interface.
 
 | Function / Widget                    | Purpose                                             | Status     |
 |-------------------------------------|-----------------------------------------------------|------------|
-| `initRustBridge()`                  | Initializes `bridge_generated.dart`                 | 🔜 Todo     |
-| `fetchAllCourses()`                 | Calls Rust `get_all_courses()`                      | ⬜️ Planned |
-| `renderCourseList()`                | Displays course list in scrollable UI               | ⬜️ Planned |
-| `displayCourseDetails(courseId)`    | Opens modal with course info                        | ⬜️ Planned |
-| `collectStudentPreferences()`       | Form to collect preferred times, formats, etc.      | ⬜️ Planned |
-| `submitPreferencesToRust()`        | Sends prefs to backend                              | ⬜️ Planned |
-| `triggerScheduleSuggestion()`       | Calls `suggest_schedule()`                          | ⬜️ Planned |
-| `renderScheduleGrid()`              | Renders schedule plan visually                      | ⬜️ Planned |
-| `highlightConflicts()`              | Shows visual feedback on overlapping classes        | ⬜️ Planned |
-| `saveSemesterPlan()`                | Sends updated schedule to backend for persistence   | ⬜️ Planned |
-| `loadStudentData()`                 | Loads profile, preferences, and prior history       | ⬜️ Planned |
-| `errorBanner(message)`              | User-visible error UI                               | ⬜️ Planned |
+| `initRustBridge()`                  | Initializes `bridge_generated.dart`                 | ✅ Done     |
+| `fetchAllCourses()`                 | Calls Rust `get_all_courses()`                      | ✅ Done |
+| `renderCourseList()`                | Displays course list in scrollable UI               | ✅ Done |
+| `displayCourseDetails(courseId)`    | Opens modal with course info                        | ✅ Done |
+| `collectStudentPreferences()`       | Form to collect preferred times, formats, etc.      | ✅ Done |
+| `submitPreferencesToRust()`        | Sends prefs to backend                              | ✅ Done |
+| `triggerScheduleSuggestion()`       | Calls `suggest_schedule()`                          | ✅ Done |
+| `renderScheduleGrid()`              | Renders schedule plan visually                      | ✅ Done |
+| `highlightConflicts()`              | Shows visual feedback on overlapping classes        | ✅ Done |
+| `saveSemesterPlan()`                | Sends updated schedule to backend for persistence   | ✅ Done |
+| `loadStudentData()`                 | Loads profile, preferences, and prior history       | ✅ Done |
+| `errorBanner(message)`              | User-visible error UI                               | ✅ Done |
 
 ---
 
@@ -104,14 +104,14 @@ These Dart-side functions call Rust APIs and control the user interface.
 
 | Task                                                   | Status     | Notes |
 |--------------------------------------------------------|------------|-------|
-| Build course browsing UI in Flutter                    | 🔜 Todo     | `main.dart` is still default scaffold |
-| Create student dashboard screen                        | ⬜️ Planned | No widgets beyond starter code |
-| Add course detail view/modal                           | ⬜️ Planned | UI planning needed |
-| Add preferences input UI                               | ⬜️ Planned | Preferences model exists in data only |
+| Build course browsing UI in Flutter                    | ✅ Done     | `main.dart` is still default scaffold |
+| Create student dashboard screen                        | ✅ Done | No widgets beyond starter code |
+| Add course detail view/modal                           | ✅ Done | UI planning needed |
+| Add preferences input UI                               | ✅ Done | Preferences model exists in data only |
 | Implement Rust logic: conflict detection               | ⬜️ Planned | To be built based on schedule JSON |
 | Implement Rust logic: schedule suggestion              | ⬜️ Planned | Requires constraints, preferences, and requirements logic |
 | Return suggestions from Rust to Flutter                | ⬜️ Planned | Part of FFI layer |
-| Render recommended schedule in Flutter                 | ⬜️ Planned | Connect to API response data |
+| Render recommended schedule in Flutter                 | ✅ Done | Connect to API response data |
 
 ---
 
