@@ -1,0 +1,44 @@
+student.html <!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Scheduler - Student</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Student Dashboard</h1>
+        <button id="logout-button">Logout</button>
+        <div class="tabs">
+            <button class="tab-button active" data-tab="search-add">Search & Add Courses</button>
+            <button class="tab-button" data-tab="schedule">Manage Schedule</button>
+        </div>
+        <div id="search-add" class="tab-content active">
+            <h2>Search Courses</h2>
+            <div class="search-bar">
+                <input type="text" id="search-dept" placeholder="Search Department">
+                <input type="text" id="search-instructor" placeholder="Search Instructor">
+                <input type="text" id="search-desc" placeholder="Search Description">
+                <input type="text" id="search-number" placeholder="Search Course Number">
+            </div>
+            <div id="course-list" class="course-grid"></div>
+        </div>
+        <div id="schedule" class="tab-content">
+            <h2>Your Schedule</h2>
+            <div id="calendar" class="calendar"></div>
+        </div>
+    </div>
+    <div id="notes-popup" class="popup">
+        <div class="popup-content">
+            <h2>Edit Notes</h2>
+            <form id="notes-form">
+                <textarea id="notes-text" placeholder="Notes"></textarea>
+                <input type="text" id="notes-slot" placeholder="Reason for taking">
+                <button type="submit">Save</button>
+                <button type="button" class="drop-button">Drop Course</button>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

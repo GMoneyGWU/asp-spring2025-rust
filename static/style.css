@@ -1,0 +1,293 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #6b7280, #a5b4fc);
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #34495e;
+    margin-bottom: 15px;
+}
+
+.tabs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.tab-button {
+    padding: 12px;
+    background: #d1d8e0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.tab-button.active {
+    background: #6366f1;
+    color: #fff;
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input, select, button, textarea {
+    padding: 12px;
+    border: 1px solid #a5b4fc;
+    border-radius: 5px;
+    background: #f8fafc;
+}
+
+button {
+    background: #6366f1;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #4f46e5;
+}
+
+.search-bar {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.course-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.course {
+    background: #e2e8f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.course button {
+    margin-top: 10px;
+    background: #10b981;
+}
+
+.course button:hover {
+    background: #059669;
+}
+
+.course .edit-button {
+    background: #f59e0b;
+}
+
+.course .edit-button:hover {
+    background: #d97706;
+}
+
+.course .delete-button, .course .drop-button, .course .delete-user-button {
+    background: #ef4444;
+}
+
+.course .delete-button:hover, .course .drop-button:hover, .course .delete-user-button:hover {
+    background: #dc2626;
+}
+
+#message, #user-message {
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#logout-button {
+    background: #ef4444;
+    margin-bottom: 20px;
+}
+
+#logout-button:hover {
+    background: #dc2626;
+}
+
+/* Calendar */
+.calendar-container {
+    position: relative;
+    width: 100%;
+}
+
+.calendar-headers {
+    display: grid;
+    grid-template-columns: 60px 1fr 1fr 1fr 1fr 1fr;
+    gap: 5px;
+    margin-bottom: 5px;
+}
+
+.calendar-header {
+    text-align: center;
+    padding: 10px;
+    background: #d1d8e0;
+    font-weight: bold;
+}
+
+.calendar-header.empty {
+    background: none;
+}
+
+/* Calendar */
+.calendar {
+    display: grid;
+    grid-template-columns: 60px 1fr 1fr 1fr 1fr 1fr; /* Time column + 5 days */
+    gap: 5px;
+    background: #f8fafc;
+    padding: 10px;
+    border-radius: 5px;
+    height: 500px; /* Fixed height for the timeline */
+    position: relative;
+}
+
+.calendar-time-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.calendar-time {
+    text-align: right;
+    padding: 5px;
+    font-size: 0.9em;
+    height: 100%; /* Let it stretch naturally */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.calendar-day {
+    position: relative;
+    height: 100%;
+    background: #e2e8f0;
+    border: 1px solid #a5b4fc;
+    border-radius: 5px;
+}
+
+.calendar-event {
+    position: absolute;
+    background: #10b981;
+    color: #fff;
+    padding: 5px;
+    border-radius: 3px;
+    font-size: 0.9em;
+    cursor: pointer;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 95%;
+    left: 2.5%;
+}
+
+/* Popup */
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 600px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+#edit-popup .popup-content {
+    max-width: 800px;
+}
+
+.popup-content form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.popup-content button {
+    background: #6366f1;
+}
+
+.popup-content .delete-button {
+    background: #ef4444;
+}
+
+.popup-content .cancel-button {
+    background: #a5b4fc;
+    color: #2c3e50;
+}
+
+.popup-content .cancel-button:hover {
+    background: #8f9bff;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+/* Day Schedule */
+.day-schedule {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.day-schedule label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.day-schedule select {
+    padding: 8px;
+}

@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Scheduler - Admin</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Admin Dashboard</h1>
+        <button id="logout-button">Logout</button>
+        <div class="tabs">
+            <button class="tab-button active" data-tab="add-course">Add Courses</button>
+            <button class="tab-button" data-tab="manage-course">Manage Courses</button>
+            <button class="tab-button" data-tab="add-user">Add Student</button>
+            <button class="tab-button" data-tab="manage-user">Manage Students</button>
+        </div>
+        <div id="add-course" class="tab-content active">
+            <h2>Add a New Course</h2>
+            <form id="add-course-form">
+                <input type="text" id="course-number" placeholder="Course Number" required>
+                <input type="text" id="instructor" placeholder="Instructor" required>
+                <input type="text" id="description" placeholder="Description" required>
+                <input type="text" id="location" placeholder="Location" required>
+                <div id="meeting-times">
+                    <div class="day-schedule">
+                        <label><input type="checkbox" name="day" value="M"> Monday</label>
+                        <select name="start-hour">
+                            <option value="08">08</option><option value="09">09</option><option value="10">10</option>
+                            <option value="11">11</option><option value="12">12</option><option value="13">13</option>
+                            <option value="14">14</option><option value="15">15</option><option value="16">16</option>
+                            <option value="17">17</option><option value="18">18</option><option value="19">19</option>
+                            <option value="20">20</option>
+                        </select>
+                        <select name="start-minute"><option value="00">00</option><option value="15">15</option><option value="30">30</option><option value="45">45</option></select>
+                        -
+                        <select name="end-hour">
+                            <option value="09">09</option><option value="10">10</option><option value="11">11</option>
+                            <option value="12">12</option><option value="13">13</option><option value="14">14</option>
+                            <option value="15">15</option><option value="16">16</option><option value="17">17</option>
+                            <option value="18">18</option><option value="19">19</option><option value="20">20</option>
+                            <option value="21">21</option>
+                        </select>
+                        <select name="end-minute"><option value="00">00</option><option value="15">15</option><option value="30">30</option><option value="45">45</option></select>
+                    </div>
+                    <div class="day-schedule">
+                        <label><input type="checkbox" name="day" value="T"> Tuesday</label>
+                        <select name="start-hour">
+                            <option value="08">08</option><option value="09">09</option><option value="10">10</option>
+                            <option value="11">11</option><option value="12">12</option><option value="13">13</option>
+                            <option value="14">14</option><option value="15">15</option><option value="16">16</option>
+                            <option value="17">17</option><option value="18">18</option><option value="19">19</option>
+                            <option value="20">20</option>
+                        </select>
+                        <select name="start-minute"><option value="00">00</option><option value="15">15</option><option value="30">30</option><option value="45">45</option></select>
+                        -
+                        <select name="end-hour">
+                            <option value="09">09</option><option value="10">10</option><option value="11">11</option>
+                            <option value="12">12</option><option value="13">13</option><option value="14">14</option>
+                            <option value="15">15</option><option value="16">16</option><option value="17">17</option>
+                            <option value="18">18</option><option value="19">19</option><option value="20">20</option>
+                            <option value="21">21</option>
+                        </select>
+                        <select name="end-minute"><option value="00">00</option><option value="15">15</option><option value="30">30</option><option value="45">45</option></select>
+                    </div>
+                    <div class="day-schedule">
+                        <label><input type="checkbox" name="day" value="W"> Wednesday</label>
+                        <select name="start-hour">
+                            <option value="08">08</option><option value="09">09</option><option value="10">10</option>
+                            <option value="11">11</option><option value="12">12</option><option value="13">13</option>
+                            <option value="14">14</option><option value="15">15</option><option value="16">16</option>
+                            <option value="17">17</option><option value="18">18</option><option value="19">19</option>
+                            <option value="20">20</option>
+                        </select>
+                        <select name="start-minute"><option value="00">00</option><option value="15">15</option><option value="30">30</option><option value="45">45</option></select>
+                        -
+                        <select name="end-hour">
+                            <option value="09">09</option><option value="10">10</option><option value="11">11</option>
+                            <option value="12">12</option><option value="13">13</option><option value="14">14</option>
+                            <option value="15">15</option><option value="16">16</option><option value="17">17</option>
+                            <option value="18">18</option><option value="19">19</option><option value="20">20</option>
+                            <option value="21">21</option>
+                        </select>
+                        <select name="end-minute"><option value="00">00</option><option value="15">15</option><option value="30">30</option><option value="45">45</option></select>
+                    </div>
+                    <div class="day-schedule">
+                        <label><input type="checkbox" name="day" value="Th"> Thursday</label>
+                        <select name="start-hour">
+                            <option value="08">08</option><option value="09">09</option><option value="10">10</option>
+                            <option value="11">11</option><option value="12">12</option><option value="13">13</option>
+                            <option value="14">14</option><option value="15">15</option><option value="16">16</option>
+                            <option value="17">17</option><option value="18">18</option><option value="19">19</option>
+                            <option value="20">20</option>
+                        </select>
+                        <select name="start-minute"><option value="00">00</option><option value="15">15</option><option value="30">30</option><option value="45">45</option></select>
+                        -
+                        <select name="end-hour">
+                            <option value="09">09</option><option value="10">10</option><option value="11">11</option>
+                            <option value="12">12</option><option value="13">13</option><option value="14">14</option>
+                            <option value="15">15</option><option value="16">16</option><option value="17">17</option>
+                            <option value="18">18</option><option value="19">19</option><option value="20">20</option>
+                            <option value="21">21</option>
+                        </select>
+                        <select name="end-minute"><option value="00">00</option><option value="15">15</option><option value="30">30</option><option value="45">45</option></select>
+                    </div>
+                    <div class="day-schedule">
+                        <label><input type="checkbox" name="day" value="F"> Friday</label>
+                        <select name="start-hour">
+                            <option value="08">08</option><option value="09">09</option><option value="10">10</option>
+                            <option value="11">11</option><option value="12">12</option><option value="13">13</option>
+                            <option value="14">14</option><option value="15">15</option><option value="16">16</option>
+                            <option value="17">17</option><option value="18">18</option><option value="19">19</option>
+                            <option value="20">20</option>
+                        </select>
+                        <select name="start-minute"><option value="00">00</option><option value="15">15</option><option value="30">30</option><option value="45">45</option></select>
+                        -
+                        <select name="end-hour">
+                            <option value="09">09</option><option value="10">10</option><option value="11">11</option>
+                            <option value="12">12</option><option value="13">13</option><option value="14">14</option>
+                            <option value="15">15</option><option value="16">16</option><option value="17">17</option>
+                            <option value="18">18</option><option value="19">19</option><option value="20">20</option>
+                            <option value="21">21</option>
+                        </select>
+                        <select name="end-minute"><option value="00">00</option><option value="15">15</option><option value="30">30</option><option value="45">45</option></select>
+                    </div>
+                </div>
+                <button type="submit">Add Course</button>
+            </form>
+            <p id="message"></p>
+        </div>
+        <div id="manage-course" class="tab-content">
+            <h2>Manage Courses</h2>
+            <div class="search-bar">
+                <input type="text" id="search-dept-admin" placeholder="Search Department">
+                <input type="text" id="search-instructor-admin" placeholder="Search Instructor">
+                <input type="text" id="search-desc-admin" placeholder="Search Description">
+                <input type="text" id="search-number-admin" placeholder="Search Course Number">
+            </div>
+            <div id="course-list-admin" class="course-grid"></div>
+        </div>
+        <div id="add-user" class="tab-content">
+            <h2>Add a New Student</h2>
+            <form id="add-user-form">
+                <input type="text" id="new-username" placeholder="Username" required>
+                <input type="password" id="new-password" placeholder="Password" required>
+                <button type="submit">Add Student</button>
+            </form>
+            <p id="user-message"></p>
+        </div>
+        <div id="manage-user" class="tab-content">
+            <h2>Manage Students</h2>
+            <div id="user-list" class="course-grid"></div>
+        </div>
+    </div>
+    <div id="edit-popup" class="popup">
+        <div class="popup-content">
+            <h2>Edit Course</h2>
+            <form id="edit-course-form">
+                <input type="text" id="edit-dept" placeholder="Department" required>
+                <input type="text" id="edit-number" placeholder="Course Number" required>
+                <input type="text" id="edit-instructor" placeholder="Instructor" required>
+                <input type="text" id="edit-description" placeholder="Description" required>
+                <input type="text" id="edit-location" placeholder="Location" required>
+                <div id="edit-meeting-times">
+                    <div class="day-schedule">
+                        <label><input type="checkbox" name="edit-day" value="M"> Monday</label>
+                        <select name="edit-start-hour">
+                            <option value="08">08</option><option value="09">09</option><option value="10">10</option>
+                            <option value="11">11</option><option value="12">12</option><option value="13">13</option>
+                            <option value="14">14</option><option value="15">15</option><option value="16">16</option>
+                            <option value="17">17</option><option value="18">18</option><option value="19">19</option>
+                            <option value="20">20</option>
+                        </select>
+                        <select name="edit-start-minute"><option value="00">00</option><option value="15">15</option><option value="30">30</option><option value="45">45</option></select>
+                        -
+                        <select name="edit-end-hour">
+                            <option value="09">09</option><option value="10">10</option><option value="11">11</option>
+                            <option value="12">12</option><option value="13">13</option><option value="14">14</option>
+                            <option value="15">15</option><option value="16">16</option><option value="17">17</option>
+                            <option value="18">18</option><option value="19">19</option><option value="20">20</option>
+                            <option value="21">21</option>
+                        </select>
+                        <select name="edit-end-minute"><option value="00">00</option><option value="15">15</option><option value="30">30</option><option value="45">45</option></select>
+                    </div>
+                    <div class="day-schedule">
+                        <label><input type="checkbox" name="edit-day" value="T"> Tuesday</label>
+                        <select name="edit-start-hour">
+                            <option value="08">08</option><option value="09">09</option><option value="10">10</option>
+                            <option value="11">11</option><option value="12">12</option><option value="13">13</option>
+                            <option value="14">14</option><option value="15">15</option><option value="16">16</option>
+                            <option value="17">17</option><option value="18">18</option><option value="19">19</option>
+                            <option value="20">20</option>
+                        </select>
+                        <select name="edit-start-minute"><option value="00">00</option><option value="15">15</option><option value="30">30</option><option value="45">45</option></select>
+                        -
+                        <select name="edit-end-hour">
+                            <option value="09">09</option><option value="10">10</option><option value="11">11</option>
+                            <option value="12">12</option><option value="13">13</option><option value="14">14</option>
+                            <option value="15">15</option><option value="16">16</option><option value="17">17</option>
+                            <option value="18">18</option><option value="19">19</option><option value="20">20</option>
+                            <option value="21">21</option>
+                        </select>
+                        <select name="edit-end-minute"><option value="00">00</option><option value="15">15</option><option value="30">30</option><option value="45">45</option></select>
+                    </div>
+                    <div class="day-schedule">
+                        <label><input type="checkbox" name="edit-day" value="W"> Wednesday</label>
+                        <select name="edit-start-hour">
+                            <option value="08">08</option><option value="09">09</option><option value="10">10</option>
+                            <option value="11">11</option><option value="12">12</option><option value="13">13</option>
+                            <option value="14">14</option><option value="15">15</option><option value="16">16</option>
+                            <option value="17">17</option><option value="18">18</option><option value="19">19</option>
+                            <option value="20">20</option>
+                        </select>
+                        <select name="edit-start-minute"><option value="00">00</option><option value="15">15</option><option value="30">30</option><option value="45">45</option></select>
+                        -
+                        <select name="edit-end-hour">
+                            <option value="09">09</option><option value="10">10</option><option value="11">11</option>
+                            <option value="12">12</option><option value="13">13</option><option value="14">14</option>
+                            <option value="15">15</option><option value="16">16</option><option value="17">17</option>
+                            <option value="18">18</option><option value="19">19</option><option value="20">20</option>
+                            <option value="21">21</option>
+                        </select>
+                        <select name="edit-end-minute"><option value="00">00</option><option value="15">15</option><option value="30">30</option><option value="45">45</option></select>
+                    </div>
+                    <div class="day-schedule">
+                        <label><input type="checkbox" name="edit-day" value="Th"> Thursday</label>
+                        <select name="edit-start-hour">
+                            <option value="08">08</option><option value="09">09</option><option value="10">10</option>
+                            <option value="11">11</option><option value="12">12</option><option value="13">13</option>
+                            <option value="14">14</option><option value="15">15</option><option value="16">16</option>
+                            <option value="17">17</option><option value="18">18</option><option value="19">19</option>
+                            <option value="20">20</option>
+                        </select>
+                        <select name="edit-start-minute"><option value="00">00</option><option value="15">15</option><option value="30">30</option><option value="45">45</option></select>
+                        -
+                        <select name="edit-end-hour">
+                            <option value="09">09</option><option value="10">10</option><option value="11">11</option>
+                            <option value="12">12</option><option value="13">13</option><option value="14">14</option>
+                            <option value="15">15</option><option value="16">16</option><option value="17">17</option>
+                            <option value="18">18</option><option value="19">19</option><option value="20">20</option>
+                            <option value="21">21</option>
+                        </select>
+                        <select name="edit-end-minute"><option value="00">00</option><option value="15">15</option><option value="30">30</option><option value="45">45</option></select>
+                    </div>
+                    <div class="day-schedule">
+                        <label><input type="checkbox" name="edit-day" value="F"> Friday</label>
+                        <select name="edit-start-hour">
+                            <option value="08">08</option><option value="09">09</option><option value="10">10</option>
+                            <option value="11">11</option><option value="12">12</option><option value="13">13</option>
+                            <option value="14">14</option><option value="15">15</option><option value="16">16</option>
+                            <option value="17">17</option><option value="18">18</option><option value="19">19</option>
+                            <option value="20">20</option>
+                        </select>
+                        <select name="edit-start-minute"><option value="00">00</option><option value="15">15</option><option value="30">30</option><option value="45">45</option></select>
+                        -
+                        <select name="edit-end-hour">
+                            <option value="09">09</option><option value="10">10</option><option value="11">11</option>
+                            <option value="12">12</option><option value="13">13</option><option value="14">14</option>
+                            <option value="15">15</option><option value="16">16</option><option value="17">17</option>
+                            <option value="18">18</option><option value="19">19</option><option value="20">20</option>
+                            <option value="21">21</option>
+                        </select>
+                        <select name="edit-end-minute"><option value="00">00</option><option value="15">15</option><option value="30">30</option><option value="45">45</option></select>
+                    </div>
+                </div>
+                <p id="edit-message" style="color: #ff4757;"></p>
+                <button type="submit">Save</button>
+                <button type="button" id="cancel-button" class="cancel-button">Cancel</button>
+                <button type="button" class="delete-button">Remove</button>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

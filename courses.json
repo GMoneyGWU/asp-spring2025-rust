@@ -1,0 +1,1307 @@
+[
+  {
+    "id": 1,
+    "dept_code": "CSCI",
+    "course_number": "1001",
+    "instructor": "Prof. Adam J. Aviv",
+    "description": "Computer Science Orientation",
+    "location": "SEH 4020",
+    "meeting_time": "TTh 11:00-12:15"
+  },
+  {
+    "id": 2,
+    "dept_code": "CSCI",
+    "course_number": "1002",
+    "instructor": "Prof. Hyeong-Ah Choi",
+    "description": "Introduction to Programming with Java",
+    "location": "SEH 4030",
+    "meeting_time": "MW 12:30-13:45"
+  },
+  {
+    "id": 3,
+    "dept_code": "CSCI",
+    "course_number": "1003",
+    "instructor": "Dr. Kinga Dobolyi",
+    "description": "Introduction to Programming with Python",
+    "location": "SEH 4040",
+    "meeting_time": "TTh 14:00-15:15"
+  },
+  {
+    "id": 4,
+    "dept_code": "CSCI",
+    "course_number": "1004",
+    "instructor": "Prof. Shi Feng",
+    "description": "Computational Problem-Solving Across Disciplines",
+    "location": "SEH 4050",
+    "meeting_time": "MWF 09:00-09:50"
+  },
+  {
+    "id": 5,
+    "dept_code": "CSCI",
+    "course_number": "1005",
+    "instructor": "Prof. Joe Goldfrank",
+    "description": "Applications Software",
+    "location": "SEH 4060",
+    "meeting_time": "MWF 11:00-11:50"
+  },
+  {
+    "id": 6,
+    "dept_code": "CSCI",
+    "course_number": "1006",
+    "instructor": "Dr. James Hahn",
+    "description": "Introduction to Computers and the Internet",
+    "location": "SEH 4070",
+    "meeting_time": "MW 10:00-11:15"
+  },
+  {
+    "id": 7,
+    "dept_code": "CSCI",
+    "course_number": "1007",
+    "instructor": "Prof. Rebecca Hwa",
+    "description": "Introduction to Internet Technology",
+    "location": "SEH 4080",
+    "meeting_time": "TTh 11:00-12:15"
+  },
+  {
+    "id": 8,
+    "dept_code": "CSCI",
+    "course_number": "1008",
+    "instructor": "Prof. Sibin Mohan",
+    "description": "Introduction to Web Software Development",
+    "location": "SEH 4090",
+    "meeting_time": "MW 12:30-13:45"
+  },
+  {
+    "id": 9,
+    "dept_code": "CSCI",
+    "course_number": "1009",
+    "instructor": "Prof. Gabriel Parmer",
+    "description": "Variable Topics",
+    "location": "SEH 4100",
+    "meeting_time": "TTh 14:00-15:15"
+  },
+  {
+    "id": 10,
+    "dept_code": "CSCI",
+    "course_number": "1010",
+    "instructor": "Prof. Robert Pless",
+    "description": "Introduction to Software Development",
+    "location": "SEH 4110",
+    "meeting_time": "MWF 09:00-09:50"
+  },
+  {
+    "id": 11,
+    "dept_code": "CSCI",
+    "course_number": "1011",
+    "instructor": "Dr. Rahul Simha",
+    "description": "Algorithms and Data Structures",
+    "location": "SEH 4120",
+    "meeting_time": "MWF 11:00-11:50"
+  },
+  {
+    "id": 12,
+    "dept_code": "CSCI",
+    "course_number": "1012",
+    "instructor": "Prof. Poorvi Vora",
+    "description": "Introduction to C Programming",
+    "location": "SEH 4130",
+    "meeting_time": "MW 10:00-11:15"
+  },
+  {
+    "id": 13,
+    "dept_code": "CSCI",
+    "course_number": "1013",
+    "instructor": "Prof. Tim Wood",
+    "description": "Introduction to Programming with C",
+    "location": "SEH 4140",
+    "meeting_time": "TTh 11:00-12:15"
+  },
+  {
+    "id": 14,
+    "dept_code": "CSCI",
+    "course_number": "1014",
+    "instructor": "Prof. Blake Woodworth",
+    "description": "Data Structures and Software Design",
+    "location": "SEH 4150",
+    "meeting_time": "MW 12:30-13:45"
+  },
+  {
+    "id": 15,
+    "dept_code": "CSCI",
+    "course_number": "1015",
+    "instructor": "Dr. Arkady Yerukhimovich",
+    "description": "Discrete Structures I",
+    "location": "SEH 4160",
+    "meeting_time": "TTh 14:00-15:15"
+  },
+  {
+    "id": 16,
+    "dept_code": "CSCI",
+    "course_number": "1016",
+    "instructor": "Prof. Abdou Youssef",
+    "description": "Software Engineering",
+    "location": "SEH 4170",
+    "meeting_time": "MWF 09:00-09:50"
+  },
+  {
+    "id": 17,
+    "dept_code": "CSCI",
+    "course_number": "1017",
+    "instructor": "Prof. Jie Zhou",
+    "description": "Computing and the World",
+    "location": "SEH 4180",
+    "meeting_time": "MWF 11:00-11:50"
+  },
+  {
+    "id": 18,
+    "dept_code": "CSCI",
+    "course_number": "1018",
+    "instructor": "Prof. Chung Hyuk Park",
+    "description": "Discrete Structures II",
+    "location": "SEH 4190",
+    "meeting_time": "MW 10:00-11:15"
+  },
+  {
+    "id": 19,
+    "dept_code": "CSCI",
+    "course_number": "1019",
+    "instructor": "Prof. Peng Wei",
+    "description": "System Programming",
+    "location": "SEH 4200",
+    "meeting_time": "TTh 11:00-12:15"
+  },
+  {
+    "id": 20,
+    "dept_code": "CSCI",
+    "course_number": "1020",
+    "instructor": "Dr. Yasemin Acar",
+    "description": "Database Systems and Team Projects",
+    "location": "SEH 4210",
+    "meeting_time": "MW 12:30-13:45"
+  },
+  {
+    "id": 21,
+    "dept_code": "CSCI",
+    "course_number": "1021",
+    "instructor": "Prof. Adam J. Aviv",
+    "description": "Introduction to Computer Systems",
+    "location": "SEH 4220",
+    "meeting_time": "TTh 14:00-15:15"
+  },
+  {
+    "id": 22,
+    "dept_code": "CSCI",
+    "course_number": "1022",
+    "instructor": "Prof. Hyeong-Ah Choi",
+    "description": "Computer Architecture I",
+    "location": "SEH 4230",
+    "meeting_time": "MWF 09:00-09:50"
+  },
+  {
+    "id": 23,
+    "dept_code": "CSCI",
+    "course_number": "1023",
+    "instructor": "Dr. Kinga Dobolyi",
+    "description": "Ethical Issues in Computing",
+    "location": "SEH 4240",
+    "meeting_time": "MWF 11:00-11:50"
+  },
+  {
+    "id": 24,
+    "dept_code": "CSCI",
+    "course_number": "1024",
+    "instructor": "Prof. Shi Feng",
+    "description": "Algorithms",
+    "location": "SEH 4250",
+    "meeting_time": "MW 10:00-11:15"
+  },
+  {
+    "id": 25,
+    "dept_code": "CSCI",
+    "course_number": "1025",
+    "instructor": "Prof. Joe Goldfrank",
+    "description": "Foundations of Computing",
+    "location": "SEH 4260",
+    "meeting_time": "TTh 11:00-12:15"
+  },
+  {
+    "id": 26,
+    "dept_code": "CSCI",
+    "course_number": "1026",
+    "instructor": "Dr. James Hahn",
+    "description": "Probability for Computer Science",
+    "location": "SEH 4270",
+    "meeting_time": "MW 12:30-13:45"
+  },
+  {
+    "id": 27,
+    "dept_code": "CSCI",
+    "course_number": "1027",
+    "instructor": "Prof. Rebecca Hwa",
+    "description": "Computer Architecture and Organization",
+    "location": "SEH 4280",
+    "meeting_time": "TTh 14:00-15:15"
+  },
+  {
+    "id": 28,
+    "dept_code": "CSCI",
+    "course_number": "1028",
+    "instructor": "Prof. Sibin Mohan",
+    "description": "Systems Programming",
+    "location": "SEH 4290",
+    "meeting_time": "MWF 09:00-09:50"
+  },
+  {
+    "id": 29,
+    "dept_code": "CSCI",
+    "course_number": "1029",
+    "instructor": "Prof. Gabriel Parmer",
+    "description": "Operating Systems",
+    "location": "SEH 4300",
+    "meeting_time": "MWF 11:00-11:50"
+  },
+  {
+    "id": 30,
+    "dept_code": "CSCI",
+    "course_number": "1030",
+    "instructor": "Prof. Robert Pless",
+    "description": "Introduction to Blockchain Technology and Applications",
+    "location": "SEH 4310",
+    "meeting_time": "MW 10:00-11:15"
+  },
+  {
+    "id": 31,
+    "dept_code": "CSCI",
+    "course_number": "1031",
+    "instructor": "Dr. Rahul Simha",
+    "description": "Computer Architecture II",
+    "location": "SEH 4320",
+    "meeting_time": "TTh 11:00-12:15"
+  },
+  {
+    "id": 32,
+    "dept_code": "CSCI",
+    "course_number": "1032",
+    "instructor": "Prof. Poorvi Vora",
+    "description": "Information Ethics and Policy",
+    "location": "SEH 4330",
+    "meeting_time": "MW 12:30-13:45"
+  },
+  {
+    "id": 33,
+    "dept_code": "CSCI",
+    "course_number": "1033",
+    "instructor": "Prof. Tim Wood",
+    "description": "Concepts and Applications of Computer Graphics",
+    "location": "SEH 4340",
+    "meeting_time": "TTh 14:00-15:15"
+  },
+  {
+    "id": 34,
+    "dept_code": "CSCI",
+    "course_number": "1034",
+    "instructor": "Prof. Blake Woodworth",
+    "description": "Design of Computer Animation I",
+    "location": "SEH 4350",
+    "meeting_time": "MWF 09:00-09:50"
+  },
+  {
+    "id": 35,
+    "dept_code": "CSCI",
+    "course_number": "1035",
+    "instructor": "Dr. Arkady Yerukhimovich",
+    "description": "Introduction to Bioinformatics",
+    "location": "SEH 4360",
+    "meeting_time": "MWF 11:00-11:50"
+  },
+  {
+    "id": 36,
+    "dept_code": "CSCI",
+    "course_number": "1036",
+    "instructor": "Prof. Abdou Youssef",
+    "description": "Special Topics",
+    "location": "SEH 4370",
+    "meeting_time": "MW 10:00-11:15"
+  },
+  {
+    "id": 37,
+    "dept_code": "CSCI",
+    "course_number": "1037",
+    "instructor": "Prof. Jie Zhou",
+    "description": "Research",
+    "location": "SEH 4380",
+    "meeting_time": "TTh 11:00-12:15"
+  },
+  {
+    "id": 38,
+    "dept_code": "CSCI",
+    "course_number": "1038",
+    "instructor": "Prof. Chung Hyuk Park",
+    "description": "Principles of Programming Languages",
+    "location": "SEH 4390",
+    "meeting_time": "MW 12:30-13:45"
+  },
+  {
+    "id": 39,
+    "dept_code": "CSCI",
+    "course_number": "1039",
+    "instructor": "Prof. Peng Wei",
+    "description": "Development of Open-Source Software",
+    "location": "SEH 4400",
+    "meeting_time": "TTh 14:00-15:15"
+  },
+  {
+    "id": 40,
+    "dept_code": "CSCI",
+    "course_number": "1040",
+    "instructor": "Dr. Yasemin Acar",
+    "description": "Software Design for Handheld Devices",
+    "location": "SEH 4410",
+    "meeting_time": "MWF 09:00-09:50"
+  },
+  {
+    "id": 41,
+    "dept_code": "CSCI",
+    "course_number": "1041",
+    "instructor": "Prof. Adam J. Aviv",
+    "description": "Capstone Design Project I",
+    "location": "SEH 4420",
+    "meeting_time": "MWF 11:00-11:50"
+  },
+  {
+    "id": 42,
+    "dept_code": "CSCI",
+    "course_number": "1042",
+    "instructor": "Prof. Hyeong-Ah Choi",
+    "description": "Capstone Design Project II",
+    "location": "SEH 4430",
+    "meeting_time": "MW 10:00-11:15"
+  },
+  {
+    "id": 43,
+    "dept_code": "CSCI",
+    "course_number": "1043",
+    "instructor": "Dr. Kinga Dobolyi",
+    "description": "Cryptography",
+    "location": "SEH 4440",
+    "meeting_time": "TTh 11:00-12:15"
+  },
+  {
+    "id": 44,
+    "dept_code": "CSCI",
+    "course_number": "1044",
+    "instructor": "Prof. Shi Feng",
+    "description": "Continuous Algorithms",
+    "location": "SEH 4450",
+    "meeting_time": "MW 12:30-13:45"
+  },
+  {
+    "id": 45,
+    "dept_code": "CSCI",
+    "course_number": "1045",
+    "instructor": "Prof. Joe Goldfrank",
+    "description": "Computational Linear Algebra and Applications",
+    "location": "SEH 4460",
+    "meeting_time": "TTh 14:00-15:15"
+  },
+  {
+    "id": 46,
+    "dept_code": "CSCI",
+    "course_number": "1046",
+    "instructor": "Dr. James Hahn",
+    "description": "Introduction to Quantum Computing",
+    "location": "SEH 4470",
+    "meeting_time": "MWF 09:00-09:50"
+  },
+  {
+    "id": 47,
+    "dept_code": "CSCI",
+    "course_number": "1047",
+    "instructor": "Prof. Rebecca Hwa",
+    "description": "Machine Learning",
+    "location": "SEH 4480",
+    "meeting_time": "MWF 11:00-11:50"
+  },
+  {
+    "id": 48,
+    "dept_code": "CSCI",
+    "course_number": "1048",
+    "instructor": "Prof. Sibin Mohan",
+    "description": "Neural Networks and Deep Learning",
+    "location": "SEH 4490",
+    "meeting_time": "MW 10:00-11:15"
+  },
+  {
+    "id": 49,
+    "dept_code": "CSCI",
+    "course_number": "1049",
+    "instructor": "Prof. Gabriel Parmer",
+    "description": "Real-Time and Embedded Systems",
+    "location": "SEH 4010",
+    "meeting_time": "TTh 11:00-12:15"
+  },
+  {
+    "id": 50,
+    "dept_code": "CSCI",
+    "course_number": "1050",
+    "instructor": "Prof. Robert Pless",
+    "description": "Computer Networks I",
+    "location": "SEH 4020",
+    "meeting_time": "MW 12:30-13:45"
+  },
+  {
+    "id": 51,
+    "dept_code": "CSCI",
+    "course_number": "1051",
+    "instructor": "Dr. Rahul Simha",
+    "description": "Augmented and Virtual Reality",
+    "location": "SEH 4030",
+    "meeting_time": "TTh 14:00-15:15"
+  },
+  {
+    "id": 52,
+    "dept_code": "CSCI",
+    "course_number": "1052",
+    "instructor": "Prof. Poorvi Vora",
+    "description": "Computer Game Design and Programming",
+    "location": "SEH 4040",
+    "meeting_time": "MWF 09:00-09:50"
+  },
+  {
+    "id": 53,
+    "dept_code": "CSCI",
+    "course_number": "1053",
+    "instructor": "Prof. Tim Wood",
+    "description": "Artificial Intelligence Algorithms",
+    "location": "SEH 4050",
+    "meeting_time": "MWF 11:00-11:50"
+  },
+  {
+    "id": 54,
+    "dept_code": "CSCI",
+    "course_number": "1054",
+    "instructor": "Prof. Blake Woodworth",
+    "description": "Introduction to Mobile Robotics",
+    "location": "SEH 4060",
+    "meeting_time": "MW 10:00-11:15"
+  },
+  {
+    "id": 55,
+    "dept_code": "CSCI",
+    "course_number": "1055",
+    "instructor": "Dr. Arkady Yerukhimovich",
+    "description": "Autonomous Robotics: Manipulation",
+    "location": "SEH 4070",
+    "meeting_time": "TTh 11:00-12:15"
+  },
+  {
+    "id": 56,
+    "dept_code": "CSCI",
+    "course_number": "1056",
+    "instructor": "Prof. Abdou Youssef",
+    "description": "Introduction to Computer Vision",
+    "location": "SEH 4080",
+    "meeting_time": "MW 12:30-13:45"
+  },
+  {
+    "id": 57,
+    "dept_code": "CSCI",
+    "course_number": "1057",
+    "instructor": "Prof. Jie Zhou",
+    "description": "Computer Security",
+    "location": "SEH 4090",
+    "meeting_time": "TTh 14:00-15:15"
+  },
+  {
+    "id": 58,
+    "dept_code": "CSCI",
+    "course_number": "1058",
+    "instructor": "Prof. Chung Hyuk Park",
+    "description": "Introduction to Usable Security and Privacy",
+    "location": "SEH 4100",
+    "meeting_time": "MWF 09:00-09:50"
+  },
+  {
+    "id": 59,
+    "dept_code": "CSCI",
+    "course_number": "1059",
+    "instructor": "Prof. Peng Wei",
+    "description": "Network Security",
+    "location": "SEH 4110",
+    "meeting_time": "MWF 11:00-11:50"
+  },
+  {
+    "id": 60,
+    "dept_code": "CSCI",
+    "course_number": "1060",
+    "instructor": "Dr. Yasemin Acar",
+    "description": "Design of User\u2013Interface Programs",
+    "location": "SEH 4120",
+    "meeting_time": "MW 10:00-11:15"
+  },
+  {
+    "id": 61,
+    "dept_code": "CSCI",
+    "course_number": "1061",
+    "instructor": "Prof. Adam J. Aviv",
+    "description": "Introduction to Biomedical Computing",
+    "location": "SEH 4130",
+    "meeting_time": "TTh 11:00-12:15"
+  },
+  {
+    "id": 62,
+    "dept_code": "CSCI",
+    "course_number": "1062",
+    "instructor": "Prof. Hyeong-Ah Choi",
+    "description": "Biomedical Computing",
+    "location": "SEH 4140",
+    "meeting_time": "MW 12:30-13:45"
+  },
+  {
+    "id": 63,
+    "dept_code": "CSCI",
+    "course_number": "1063",
+    "instructor": "Dr. Kinga Dobolyi",
+    "description": "Advanced Topics",
+    "location": "SEH 4150",
+    "meeting_time": "TTh 14:00-15:15"
+  },
+  {
+    "id": 64,
+    "dept_code": "CSCI",
+    "course_number": "1064",
+    "instructor": "Prof. Shi Feng",
+    "description": "Introduction to Computer Programming and Software Development",
+    "location": "SEH 4160",
+    "meeting_time": "MWF 09:00-09:50"
+  },
+  {
+    "id": 65,
+    "dept_code": "CSCI",
+    "course_number": "1065",
+    "instructor": "Prof. Joe Goldfrank",
+    "description": "Introduction to Data Structures and Their Applications",
+    "location": "SEH 4170",
+    "meeting_time": "MWF 11:00-11:50"
+  },
+  {
+    "id": 66,
+    "dept_code": "CSCI",
+    "course_number": "1066",
+    "instructor": "Dr. James Hahn",
+    "description": "Introduction to Software Design and Engineering",
+    "location": "SEH 4180",
+    "meeting_time": "MW 10:00-11:15"
+  },
+  {
+    "id": 67,
+    "dept_code": "CSCI",
+    "course_number": "1067",
+    "instructor": "Prof. Rebecca Hwa",
+    "description": "Introduction to Web Development",
+    "location": "SEH 4190",
+    "meeting_time": "TTh 11:00-12:15"
+  },
+  {
+    "id": 68,
+    "dept_code": "CSCI",
+    "course_number": "1068",
+    "instructor": "Prof. Sibin Mohan",
+    "description": "Introduction to Computer Science Fundamentals",
+    "location": "SEH 4200",
+    "meeting_time": "MW 12:30-13:45"
+  },
+  {
+    "id": 69,
+    "dept_code": "CSCI",
+    "course_number": "1069",
+    "instructor": "Prof. Gabriel Parmer",
+    "description": "Introduction to Computer Systems and Algorithm Analysis",
+    "location": "SEH 4210",
+    "meeting_time": "TTh 14:00-15:15"
+  },
+  {
+    "id": 70,
+    "dept_code": "CSCI",
+    "course_number": "1070",
+    "instructor": "Prof. Robert Pless",
+    "description": "Cybersecurity and Privacy",
+    "location": "SEH 4220",
+    "meeting_time": "MWF 09:00-09:50"
+  },
+  {
+    "id": 71,
+    "dept_code": "CSCI",
+    "course_number": "1071",
+    "instructor": "Dr. Rahul Simha",
+    "description": "Security in Mobile Computing",
+    "location": "SEH 4230",
+    "meeting_time": "MWF 11:00-11:50"
+  },
+  {
+    "id": 72,
+    "dept_code": "CSCI",
+    "course_number": "1072",
+    "instructor": "Prof. Poorvi Vora",
+    "description": "Cyber Forensics",
+    "location": "SEH 4240",
+    "meeting_time": "MW 10:00-11:15"
+  },
+  {
+    "id": 73,
+    "dept_code": "CSCI",
+    "course_number": "1073",
+    "instructor": "Prof. Tim Wood",
+    "description": "Applied Network Defense",
+    "location": "SEH 4250",
+    "meeting_time": "TTh 11:00-12:15"
+  },
+  {
+    "id": 74,
+    "dept_code": "CSCI",
+    "course_number": "1074",
+    "instructor": "Prof. Blake Woodworth",
+    "description": "Cloud Application Architecture",
+    "location": "SEH 4260",
+    "meeting_time": "MW 12:30-13:45"
+  },
+  {
+    "id": 75,
+    "dept_code": "CSCI",
+    "course_number": "1075",
+    "instructor": "Dr. Arkady Yerukhimovich",
+    "description": "Introduction to Computer Systems and Systems Programming",
+    "location": "SEH 4270",
+    "meeting_time": "TTh 14:00-15:15"
+  },
+  {
+    "id": 76,
+    "dept_code": "CSCI",
+    "course_number": "1076",
+    "instructor": "Prof. Abdou Youssef",
+    "description": "Application Development I",
+    "location": "SEH 4280",
+    "meeting_time": "MWF 09:00-09:50"
+  },
+  {
+    "id": 77,
+    "dept_code": "CSCI",
+    "course_number": "1077",
+    "instructor": "Prof. Jie Zhou",
+    "description": "Advanced Application Development",
+    "location": "SEH 4290",
+    "meeting_time": "MWF 11:00-11:50"
+  },
+  {
+    "id": 78,
+    "dept_code": "CSCI",
+    "course_number": "1078",
+    "instructor": "Prof. Chung Hyuk Park",
+    "description": "Design and Analysis of Algorithms",
+    "location": "SEH 4300",
+    "meeting_time": "MW 10:00-11:15"
+  },
+  {
+    "id": 79,
+    "dept_code": "CSCI",
+    "course_number": "1079",
+    "instructor": "Prof. Peng Wei",
+    "description": "Advanced Software Paradigms",
+    "location": "SEH 4310",
+    "meeting_time": "TTh 11:00-12:15"
+  },
+  {
+    "id": 80,
+    "dept_code": "CSCI",
+    "course_number": "1080",
+    "instructor": "Dr. Yasemin Acar",
+    "description": "Principles of Programming Languages",
+    "location": "SEH 4320",
+    "meeting_time": "MW 12:30-13:45"
+  },
+  {
+    "id": 81,
+    "dept_code": "CSCI",
+    "course_number": "1081",
+    "instructor": "Prof. Adam J. Aviv",
+    "description": "Software Engineering",
+    "location": "SEH 4330",
+    "meeting_time": "TTh 14:00-15:15"
+  },
+  {
+    "id": 82,
+    "dept_code": "CSCI",
+    "course_number": "1082",
+    "instructor": "Prof. Hyeong-Ah Choi",
+    "description": "Software Engineering Development",
+    "location": "SEH 4340",
+    "meeting_time": "MWF 09:00-09:50"
+  },
+  {
+    "id": 83,
+    "dept_code": "CSCI",
+    "course_number": "1083",
+    "instructor": "Dr. Kinga Dobolyi",
+    "description": "Software Testing and Quality",
+    "location": "SEH 4350",
+    "meeting_time": "MWF 11:00-11:50"
+  },
+  {
+    "id": 84,
+    "dept_code": "CSCI",
+    "course_number": "1084",
+    "instructor": "Prof. Shi Feng",
+    "description": "Object-Oriented Design",
+    "location": "SEH 4360",
+    "meeting_time": "MW 10:00-11:15"
+  },
+  {
+    "id": 85,
+    "dept_code": "CSCI",
+    "course_number": "1085",
+    "instructor": "Prof. Joe Goldfrank",
+    "description": "Theory of Computation",
+    "location": "SEH 4370",
+    "meeting_time": "TTh 11:00-12:15"
+  },
+  {
+    "id": 86,
+    "dept_code": "CSCI",
+    "course_number": "1086",
+    "instructor": "Dr. James Hahn",
+    "description": "Graph Theory and Applications",
+    "location": "SEH 4380",
+    "meeting_time": "MW 12:30-13:45"
+  },
+  {
+    "id": 87,
+    "dept_code": "CSCI",
+    "course_number": "1087",
+    "instructor": "Prof. Rebecca Hwa",
+    "description": "Complex Systems",
+    "location": "SEH 4390",
+    "meeting_time": "TTh 14:00-15:15"
+  },
+  {
+    "id": 88,
+    "dept_code": "CSCI",
+    "course_number": "1088",
+    "instructor": "Prof. Sibin Mohan",
+    "description": "Cryptography",
+    "location": "SEH 4400",
+    "meeting_time": "MWF 09:00-09:50"
+  },
+  {
+    "id": 89,
+    "dept_code": "CSCI",
+    "course_number": "1089",
+    "instructor": "Prof. Gabriel Parmer",
+    "description": "Continuous Algorithms",
+    "location": "SEH 4410",
+    "meeting_time": "MWF 11:00-11:50"
+  },
+  {
+    "id": 90,
+    "dept_code": "CSCI",
+    "course_number": "1090",
+    "instructor": "Prof. Robert Pless",
+    "description": "Computational Linear Algebra",
+    "location": "SEH 4420",
+    "meeting_time": "MW 10:00-11:15"
+  },
+  {
+    "id": 91,
+    "dept_code": "CSCI",
+    "course_number": "1091",
+    "instructor": "Dr. Rahul Simha",
+    "description": "Quantum Computing",
+    "location": "SEH 4430",
+    "meeting_time": "TTh 11:00-12:15"
+  },
+  {
+    "id": 92,
+    "dept_code": "CSCI",
+    "course_number": "1092",
+    "instructor": "Prof. Poorvi Vora",
+    "description": "Data Compression",
+    "location": "SEH 4440",
+    "meeting_time": "MW 12:30-13:45"
+  },
+  {
+    "id": 93,
+    "dept_code": "CSCI",
+    "course_number": "1093",
+    "instructor": "Prof. Tim Wood",
+    "description": "Probability for Computer Science",
+    "location": "SEH 4450",
+    "meeting_time": "TTh 14:00-15:15"
+  },
+  {
+    "id": 94,
+    "dept_code": "CSCI",
+    "course_number": "1094",
+    "instructor": "Prof. Blake Woodworth",
+    "description": "Machine Learning",
+    "location": "SEH 4460",
+    "meeting_time": "MWF 09:00-09:50"
+  },
+  {
+    "id": 95,
+    "dept_code": "CSCI",
+    "course_number": "1095",
+    "instructor": "Dr. Arkady Yerukhimovich",
+    "description": "Advanced Machine Learning",
+    "location": "SEH 4470",
+    "meeting_time": "MWF 11:00-11:50"
+  },
+  {
+    "id": 96,
+    "dept_code": "CSCI",
+    "course_number": "1096",
+    "instructor": "Prof. Abdou Youssef",
+    "description": "Neural Networks and Deep Learning",
+    "location": "SEH 4480",
+    "meeting_time": "MW 10:00-11:15"
+  },
+  {
+    "id": 97,
+    "dept_code": "CSCI",
+    "course_number": "1097",
+    "instructor": "Prof. Jie Zhou",
+    "description": "Advanced Operating Systems",
+    "location": "SEH 4490",
+    "meeting_time": "TTh 11:00-12:15"
+  },
+  {
+    "id": 98,
+    "dept_code": "CSCI",
+    "course_number": "1098",
+    "instructor": "Prof. Chung Hyuk Park",
+    "description": "OS Design and Implementation",
+    "location": "SEH 4010",
+    "meeting_time": "MW 12:30-13:45"
+  },
+  {
+    "id": 99,
+    "dept_code": "CSCI",
+    "course_number": "1099",
+    "instructor": "Prof. Peng Wei",
+    "description": "Unix Systems Administration",
+    "location": "SEH 4020",
+    "meeting_time": "TTh 14:00-15:15"
+  },
+  {
+    "id": 100,
+    "dept_code": "CSCI",
+    "course_number": "1100",
+    "instructor": "Dr. Yasemin Acar",
+    "description": "Advanced Systems Administration",
+    "location": "SEH 4030",
+    "meeting_time": "MWF 09:00-09:50"
+  },
+  {
+    "id": 101,
+    "dept_code": "CSCI",
+    "course_number": "1101",
+    "instructor": "Prof. Adam J. Aviv",
+    "description": "Distributed and Cluster Computing",
+    "location": "SEH 4040",
+    "meeting_time": "MWF 11:00-11:50"
+  },
+  {
+    "id": 102,
+    "dept_code": "CSCI",
+    "course_number": "1102",
+    "instructor": "Prof. Hyeong-Ah Choi",
+    "description": "Computer Networks",
+    "location": "SEH 4050",
+    "meeting_time": "MW 10:00-11:15"
+  },
+  {
+    "id": 103,
+    "dept_code": "CSCI",
+    "course_number": "1103",
+    "instructor": "Dr. Kinga Dobolyi",
+    "description": "Internet Protocols",
+    "location": "SEH 4060",
+    "meeting_time": "TTh 11:00-12:15"
+  },
+  {
+    "id": 104,
+    "dept_code": "CSCI",
+    "course_number": "1104",
+    "instructor": "Prof. Shi Feng",
+    "description": "Design of Internet Protocols",
+    "location": "SEH 4070",
+    "meeting_time": "MW 12:30-13:45"
+  },
+  {
+    "id": 105,
+    "dept_code": "CSCI",
+    "course_number": "1105",
+    "instructor": "Prof. Joe Goldfrank",
+    "description": "Database Management Systems",
+    "location": "SEH 4080",
+    "meeting_time": "TTh 14:00-15:15"
+  },
+  {
+    "id": 106,
+    "dept_code": "CSCI",
+    "course_number": "1106",
+    "instructor": "Dr. James Hahn",
+    "description": "Database Systems II",
+    "location": "SEH 4090",
+    "meeting_time": "MWF 09:00-09:50"
+  },
+  {
+    "id": 107,
+    "dept_code": "CSCI",
+    "course_number": "1107",
+    "instructor": "Prof. Rebecca Hwa",
+    "description": "Data Mining",
+    "location": "SEH 4100",
+    "meeting_time": "MWF 11:00-11:50"
+  },
+  {
+    "id": 108,
+    "dept_code": "CSCI",
+    "course_number": "1108",
+    "instructor": "Prof. Sibin Mohan",
+    "description": "Big Data and Analytics",
+    "location": "SEH 4110",
+    "meeting_time": "MW 10:00-11:15"
+  },
+  {
+    "id": 109,
+    "dept_code": "CSCI",
+    "course_number": "1109",
+    "instructor": "Prof. Gabriel Parmer",
+    "description": "Information Retrieval Systems",
+    "location": "SEH 4120",
+    "meeting_time": "TTh 11:00-12:15"
+  },
+  {
+    "id": 110,
+    "dept_code": "CSCI",
+    "course_number": "1110",
+    "instructor": "Prof. Robert Pless",
+    "description": "Computer System Architecture",
+    "location": "SEH 4130",
+    "meeting_time": "MW 12:30-13:45"
+  },
+  {
+    "id": 111,
+    "dept_code": "CSCI",
+    "course_number": "1111",
+    "instructor": "Dr. Rahul Simha",
+    "description": "Artificial Intelligence",
+    "location": "SEH 4140",
+    "meeting_time": "TTh 14:00-15:15"
+  },
+  {
+    "id": 112,
+    "dept_code": "CSCI",
+    "course_number": "1112",
+    "instructor": "Prof. Poorvi Vora",
+    "description": "Natural Language Understanding",
+    "location": "SEH 4150",
+    "meeting_time": "MWF 09:00-09:50"
+  },
+  {
+    "id": 113,
+    "dept_code": "CSCI",
+    "course_number": "1113",
+    "instructor": "Prof. Tim Wood",
+    "description": "Mobile Robotics",
+    "location": "SEH 4160",
+    "meeting_time": "MWF 11:00-11:50"
+  },
+  {
+    "id": 114,
+    "dept_code": "CSCI",
+    "course_number": "1114",
+    "instructor": "Prof. Blake Woodworth",
+    "description": "Autonomous Robotics",
+    "location": "SEH 4170",
+    "meeting_time": "MW 10:00-11:15"
+  },
+  {
+    "id": 115,
+    "dept_code": "CSCI",
+    "course_number": "1115",
+    "instructor": "Dr. Arkady Yerukhimovich",
+    "description": "Computer Vision",
+    "location": "SEH 4180",
+    "meeting_time": "TTh 11:00-12:15"
+  },
+  {
+    "id": 116,
+    "dept_code": "CSCI",
+    "course_number": "1116",
+    "instructor": "Prof. Abdou Youssef",
+    "description": "Computer Security",
+    "location": "SEH 4190",
+    "meeting_time": "MW 12:30-13:45"
+  },
+  {
+    "id": 117,
+    "dept_code": "CSCI",
+    "course_number": "1117",
+    "instructor": "Prof. Jie Zhou",
+    "description": "Information Policy",
+    "location": "SEH 4200",
+    "meeting_time": "TTh 14:00-15:15"
+  },
+  {
+    "id": 118,
+    "dept_code": "CSCI",
+    "course_number": "1118",
+    "instructor": "Prof. Chung Hyuk Park",
+    "description": "Usable Security and Privacy",
+    "location": "SEH 4210",
+    "meeting_time": "MWF 09:00-09:50"
+  },
+  {
+    "id": 119,
+    "dept_code": "CSCI",
+    "course_number": "1119",
+    "instructor": "Prof. Peng Wei",
+    "description": "Information Security in Government",
+    "location": "SEH 4220",
+    "meeting_time": "MWF 11:00-11:50"
+  },
+  {
+    "id": 120,
+    "dept_code": "CSCI",
+    "course_number": "1120",
+    "instructor": "Dr. Yasemin Acar",
+    "description": "Network Security",
+    "location": "SEH 4230",
+    "meeting_time": "MW 10:00-11:15"
+  },
+  {
+    "id": 121,
+    "dept_code": "CSCI",
+    "course_number": "1121",
+    "instructor": "Prof. Adam J. Aviv",
+    "description": "Computer Network Defense",
+    "location": "SEH 4240",
+    "meeting_time": "TTh 11:00-12:15"
+  },
+  {
+    "id": 122,
+    "dept_code": "CSCI",
+    "course_number": "1122",
+    "instructor": "Prof. Hyeong-Ah Choi",
+    "description": "Software Security",
+    "location": "SEH 4250",
+    "meeting_time": "MW 12:30-13:45"
+  },
+  {
+    "id": 123,
+    "dept_code": "CSCI",
+    "course_number": "1123",
+    "instructor": "Dr. Kinga Dobolyi",
+    "description": "Wireless and Mobile Security",
+    "location": "SEH 4260",
+    "meeting_time": "TTh 14:00-15:15"
+  },
+  {
+    "id": 124,
+    "dept_code": "CSCI",
+    "course_number": "1124",
+    "instructor": "Prof. Shi Feng",
+    "description": "E-Commerce Security",
+    "location": "SEH 4270",
+    "meeting_time": "MWF 09:00-09:50"
+  },
+  {
+    "id": 125,
+    "dept_code": "CSCI",
+    "course_number": "1125",
+    "instructor": "Prof. Joe Goldfrank",
+    "description": "Computer Graphics II",
+    "location": "SEH 4280",
+    "meeting_time": "MWF 11:00-11:50"
+  },
+  {
+    "id": 126,
+    "dept_code": "CSCI",
+    "course_number": "1126",
+    "instructor": "Dr. James Hahn",
+    "description": "Computer Animation",
+    "location": "SEH 4290",
+    "meeting_time": "MW 10:00-11:15"
+  },
+  {
+    "id": 127,
+    "dept_code": "CSCI",
+    "course_number": "1127",
+    "instructor": "Prof. Rebecca Hwa",
+    "description": "Design of Human\u2013Computer Interface",
+    "location": "SEH 4300",
+    "meeting_time": "TTh 11:00-12:15"
+  },
+  {
+    "id": 128,
+    "dept_code": "CSCI",
+    "course_number": "1128",
+    "instructor": "Prof. Sibin Mohan",
+    "description": "Design of Interactive Multimedia",
+    "location": "SEH 4310",
+    "meeting_time": "MW 12:30-13:45"
+  },
+  {
+    "id": 129,
+    "dept_code": "CSCI",
+    "course_number": "1129",
+    "instructor": "Prof. Gabriel Parmer",
+    "description": "Computational Biology Algorithms",
+    "location": "SEH 4320",
+    "meeting_time": "TTh 14:00-15:15"
+  },
+  {
+    "id": 130,
+    "dept_code": "CSCI",
+    "course_number": "1130",
+    "instructor": "Prof. Robert Pless",
+    "description": "Colloquium",
+    "location": "SEH 4330",
+    "meeting_time": "MWF 09:00-09:50"
+  },
+  {
+    "id": 131,
+    "dept_code": "CSCI",
+    "course_number": "1131",
+    "instructor": "Dr. Rahul Simha",
+    "description": "Special Topics",
+    "location": "SEH 4340",
+    "meeting_time": "MWF 11:00-11:50"
+  },
+  {
+    "id": 132,
+    "dept_code": "CSCI",
+    "course_number": "1132",
+    "instructor": "Prof. Poorvi Vora",
+    "description": "Research",
+    "location": "SEH 4350",
+    "meeting_time": "MW 10:00-11:15"
+  },
+  {
+    "id": 133,
+    "dept_code": "CSCI",
+    "course_number": "1133",
+    "instructor": "Prof. Tim Wood",
+    "description": "Guided Research",
+    "location": "SEH 4360",
+    "meeting_time": "TTh 11:00-12:15"
+  },
+  {
+    "id": 134,
+    "dept_code": "CSCI",
+    "course_number": "1134",
+    "instructor": "Prof. Blake Woodworth",
+    "description": "Thesis Research",
+    "location": "SEH 4370",
+    "meeting_time": "MW 12:30-13:45"
+  },
+  {
+    "id": 135,
+    "dept_code": "CSCI",
+    "course_number": "1135",
+    "instructor": "Dr. Arkady Yerukhimovich",
+    "description": "Dissertation Research",
+    "location": "SEH 4380",
+    "meeting_time": "TTh 14:00-15:15"
+  },
+  {
+    "id": 136,
+    "dept_code": "CSCI",
+    "course_number": "1136",
+    "instructor": "Prof. Abdou Youssef",
+    "description": "Advanced Topics in Algorithms",
+    "location": "SEH 4390",
+    "meeting_time": "MWF 09:00-09:50"
+  },
+  {
+    "id": 137,
+    "dept_code": "CSCI",
+    "course_number": "1137",
+    "instructor": "Prof. Jie Zhou",
+    "description": "Advanced Topics in Software Engineering",
+    "location": "SEH 4400",
+    "meeting_time": "MWF 11:00-11:50"
+  },
+  {
+    "id": 138,
+    "dept_code": "CSCI",
+    "course_number": "1138",
+    "instructor": "Prof. Chung Hyuk Park",
+    "description": "Advanced Cryptography",
+    "location": "SEH 4410",
+    "meeting_time": "MW 10:00-11:15"
+  },
+  {
+    "id": 139,
+    "dept_code": "CSCI",
+    "course_number": "1139",
+    "instructor": "Prof. Peng Wei",
+    "description": "Advanced Topics in Systems",
+    "location": "SEH 4420",
+    "meeting_time": "TTh 11:00-12:15"
+  },
+  {
+    "id": 140,
+    "dept_code": "CSCI",
+    "course_number": "1140",
+    "instructor": "Dr. Yasemin Acar",
+    "description": "Advanced Topics in Networks",
+    "location": "SEH 4430",
+    "meeting_time": "MW 12:30-13:45"
+  },
+  {
+    "id": 141,
+    "dept_code": "CSCI",
+    "course_number": "1141",
+    "instructor": "Prof. Adam J. Aviv",
+    "description": "Advanced Topics in Data Management",
+    "location": "SEH 4440",
+    "meeting_time": "TTh 14:00-15:15"
+  },
+  {
+    "id": 142,
+    "dept_code": "CSCI",
+    "course_number": "1142",
+    "instructor": "Prof. Hyeong-Ah Choi",
+    "description": "Advanced Topics in Security",
+    "location": "SEH 4450",
+    "meeting_time": "MWF 09:00-09:50"
+  },
+  {
+    "id": 143,
+    "dept_code": "CSCI",
+    "course_number": "1143",
+    "instructor": "Dr. Kinga Dobolyi",
+    "description": "Advanced Topics in Computer Graphics",
+    "location": "SEH 4460",
+    "meeting_time": "MWF 11:00-11:50"
+  },
+  {
+    "id": 144,
+    "dept_code": "CSCI",
+    "course_number": "1144",
+    "instructor": "Prof. Shi Feng",
+    "description": "Advanced Selected Topics",
+    "location": "SEH 4470",
+    "meeting_time": "MW 10:00-11:15"
+  },
+  {
+    "id": 145,
+    "dept_code": "CSCI",
+    "course_number": "1145",
+    "instructor": "Prof. Joe Goldfrank",
+    "description": "Research and Evaluation Methods",
+    "location": "SEH 4480",
+    "meeting_time": "TTh 11:00-12:15"
+  }
+]
