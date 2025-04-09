@@ -1,0 +1,109 @@
+[
+  {
+    "id": "SP001",
+    "student_id": "G11045678",
+    "semester": "Spring",
+    "year": 2025,
+    "courses": [
+      {
+        "course_id": "CSCI6232",
+        "time_slot": {
+          "day": "Tuesday",
+          "start_time": "18:10",
+          "end_time": "20:40"
+        },
+        "room": "SEH 2000",
+        "professor": "Dr. Williams"
+      },
+      {
+        "course_id": "CSCI6511",
+        "time_slot": {
+          "day": "Tuesday",
+          "start_time": "12:45",
+          "end_time": "15:15"
+        },
+        "room": "SEH 1300",
+        "professor": "Dr. Garcia"
+      },
+      {
+        "course_id": "CSCI6241",
+        "time_slot": {
+          "day": "Wednesday",
+          "start_time": "09:00",
+          "end_time": "11:30"
+        },
+        "room": "SEH 1400",
+        "professor": "Dr. Thompson"
+      }
+    ],
+    "total_credits": 9
+  },
+  {
+    "id": "SP002",
+    "student_id": "G11098765",
+    "semester": "Spring",
+    "year": 2025,
+    "courses": [
+      {
+        "course_id": "CSCI6531",
+        "time_slot": {
+          "day": "Monday",
+          "start_time": "18:10",
+          "end_time": "20:40"
+        },
+        "room": "SEH 1450",
+        "professor": "Dr. Johnson"
+      },
+      {
+        "course_id": "CSCI6511",
+        "time_slot": {
+          "day": "Tuesday",
+          "start_time": "12:45",
+          "end_time": "15:15"
+        },
+        "room": "SEH 1300",
+        "professor": "Dr. Garcia"
+      }
+    ],
+    "total_credits": 6
+  },
+  {
+    "id": "SP003",
+    "student_id": "G11067890",
+    "semester": "Spring",
+    "year": 2025,
+    "courses": [
+      {
+        "course_id": "CSCI6221",
+        "time_slot": {
+          "day": "Monday",
+          "start_time": "18:10",
+          "end_time": "20:40"
+        },
+        "room": "SEH 1400",
+        "professor": "Dr. Smith"
+      },
+      {
+        "course_id": "CSCI6212",
+        "time_slot": {
+          "day": "Tuesday",
+          "start_time": "15:30",
+          "end_time": "18:00"
+        },
+        "room": "SEH 1500",
+        "professor": "Dr. Lee"
+      },
+      {
+        "course_id": "CSCI6461",
+        "time_slot": {
+          "day": "Monday",
+          "start_time": "15:30",
+          "end_time": "18:00"
+        },
+        "room": "SEH 1600",
+        "professor": "Dr. Brown"
+      }
+    ],
+    "total_credits": 9
+  }
+]

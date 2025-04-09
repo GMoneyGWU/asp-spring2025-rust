@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GW Class Scheduler</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>GW Class Scheduler</h1>
+        <nav>
+            <ul>
+                <li><a href="#" id="nav-courses" class="active">Courses</a></li>
+                <li><a href="#" id="nav-schedule">My Schedule</a></li>
+                <li><a href="#" id="nav-preferences">Preferences</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="courses-section" class="section-visible">
+            <h2>Available Courses</h2>
+            <div class="search-bar">
+                <input type="text" id="course-search" placeholder="Search courses...">
+                <select id="filter-department">
+                    <option value="">All Departments</option>
+                    <option value="CSCI">Computer Science</option>
+                    <option value="MATH">Mathematics</option>
+                </select>
+            </div>
+            <div id="courses-list"></div>
+        </section>
+
+        <section id="schedule-section" class="section-hidden">
+            <h2>My Class Schedule</h2>
+            <div class="schedule-controls">
+                <select id="semester-select">
+                    <option value="Spring2025">Spring 2025</option>
+                    <option value="Fall2025">Fall 2025</option>
+                </select>
+                <button id="generate-schedule">Generate Optimal Schedule</button>
+            </div>
+            <div class="schedule-grid-container">
+                <div id="schedule-grid"></div>
+            </div>
+            <div id="schedule-summary"></div>
+        </section>
+
+        <section id="preferences-section" class="section-hidden">
+            <h2>My Preferences</h2>
+            <form id="preferences-form">
+                <div class="form-group">
+                    <label>Maximum Credits</label>
+                    <input type="number" id="max-credits" min="3" max="18" value="9">
+                </div>
+                
+                <div class="form-group">
+                    <label>Preferred Courses</label>
+                    <div id="preferred-courses-selection"></div>
+                </div>
+                
+                <div class="form-group">
+                    <label>Unavailable Times</label>
+                    <div class="time-grid">
+                        <div class="time-grid-header">
+                            <div class="time-cell"></div>
+                            <div class="time-cell">Monday</div>
+                            <div class="time-cell">Tuesday</div>
+                            <div class="time-cell">Wednesday</div>
+                            <div class="time-cell">Thursday</div>
+                            <div class="time-cell">Friday</div>
+                        </div>
+                        <div id="time-grid-body"></div>
+                    </div>
+                </div>
+                
+                <button type="submit" id="save-preferences">Save Preferences</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>GW Class Scheduler &copy; 2025 | GWU Computer Science Department</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,318 @@
+/* Base styles */
+:root {
+    --primary-color: #005baa; /* GW Blue */
+    --secondary-color: #ffb62c; /* GW Buff */
+    --dark-color: #333;
+    --light-color: #f8f8f8;
+    --border-color: #ddd;
+    --shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: var(--light-color);
+    color: var(--dark-color);
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background: linear-gradient(to right, var(--primary-color), #004188);
+    color: white;
+    padding: 1rem 2rem;
+    text-align: center;
+    box-shadow: var(--shadow);
+}
+
+header h1 {
+    margin-bottom: 1rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Main content */
+main {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 2rem;
+}
+
+section {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: var(--shadow);
+    margin-bottom: 2rem;
+}
+
+.section-hidden {
+    display: none;
+}
+
+.section-visible {
+    display: block;
+}
+
+h2 {
+    color: var(--primary-color);
+    margin-bottom: 1.5rem;
+    border-bottom: 2px solid var(--secondary-color);
+    padding-bottom: 0.5rem;
+}
+
+/* Search and filters */
+.search-bar {
+    display: flex;
+    margin-bottom: 1.5rem;
+}
+
+.search-bar input,
+.search-bar select {
+    padding: 0.8rem;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+}
+
+.search-bar input {
+    flex: 1;
+    margin-right: 1rem;
+}
+
+/* Course list */
+#courses-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+
+.course-card {
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    padding: 1.5rem;
+    background-color: white;
+    box-shadow: var(--shadow);
+    transition: transform 0.2s ease-in-out;
+}
+
+.course-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.course-title {
+    font-size: 1.2rem;
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+}
+
+.course-id {
+    color: var(--dark-color);
+    font-weight: bold;
+}
+
+.course-credits {
+    color: #666;
+    margin-bottom: 0.5rem;
+}
+
+.course-description {
+    margin-bottom: 1rem;
+    color: #555;
+}
+
+.course-times {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.add-course-btn {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-course-btn:hover {
+    background-color: #004188;
+}
+
+/* Schedule section */
+.schedule-controls {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+
+#generate-schedule {
+    background-color: var(--secondary-color);
+    color: var(--dark-color);
+    border: none;
+    padding: 0.7rem 1.5rem;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#generate-schedule:hover {
+    background-color: #e5a228;
+}
+
+.schedule-grid-container {
+    overflow-x: auto;
+    margin-bottom: 1.5rem;
+}
+
+#schedule-grid {
+    min-width: 800px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.time-slot {
+    border: 1px solid var(--border-color);
+    padding: 0.5rem;
+    height: 80px;
+    vertical-align: top;
+}
+
+.time-header {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 0.5rem;
+}
+
+.day-header {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 0.5rem;
+}
+
+.scheduled-course {
+    background-color: var(--secondary-color);
+    color: var(--dark-color);
+    padding: 0.5rem;
+    border-radius: 4px;
+    margin-bottom: 0.3rem;
+    font-size: 0.85rem;
+}
+
+/* Preferences section */
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+}
+
+.time-grid {
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.time-grid-header {
+    display: grid;
+    grid-template-columns: 100px repeat(5, 1fr);
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.time-cell {
+    padding: 0.8rem;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+#time-grid-body {
+    display: grid;
+    grid-template-columns: 100px repeat(5, 1fr);
+}
+
+.time-block {
+    padding: 0.8rem;
+    text-align: center;
+    border: 1px solid var(--border-color);
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.time-block:hover {
+    background-color: rgba(0, 91, 170, 0.1);
+}
+
+.time-block.unavailable {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+#save-preferences {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+}
+
+#save-preferences:hover {
+    background-color: #004188;
+}
+
+/* Footer */
+footer {
+    background-color: var(--dark-color);
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+    margin-top: 2rem;
+}

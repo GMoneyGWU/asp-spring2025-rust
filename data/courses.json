@@ -1,0 +1,192 @@
+[
+  {
+    "id": "CSCI6221",
+    "name": "Advanced Software Paradigms",
+    "credits": 3,
+    "description": "Advanced programming language paradigms including functional, object-oriented, and logical. Formal principles of language design and implementation.",
+    "prerequisites": [],
+    "available_times": [
+      {
+        "day": "Monday",
+        "start_time": "18:10",
+        "end_time": "20:40"
+      },
+      {
+        "day": "Wednesday",
+        "start_time": "15:30",
+        "end_time": "18:00"
+      }
+    ]
+  },
+  {
+    "id": "CSCI6212",
+    "name": "Algorithms",
+    "credits": 3,
+    "description": "Design and analysis of algorithms. Topics include asymptotic analysis, recurrence relations, sorting, selection, dynamic programming, divide and conquer, graph algorithms, and NP-completeness.",
+    "prerequisites": [],
+    "available_times": [
+      {
+        "day": "Tuesday",
+        "start_time": "15:30",
+        "end_time": "18:00"
+      },
+      {
+        "day": "Thursday",
+        "start_time": "12:45",
+        "end_time": "15:15"
+      }
+    ]
+  },
+  {
+    "id": "CSCI6461",
+    "name": "Computer Architecture",
+    "credits": 3,
+    "description": "Principles of computer organization and architecture including performance, instruction set design, pipelining, memory hierarchy, and I/O subsystems.",
+    "prerequisites": [],
+    "available_times": [
+      {
+        "day": "Monday",
+        "start_time": "15:30",
+        "end_time": "18:00"
+      },
+      {
+        "day": "Wednesday",
+        "start_time": "12:45",
+        "end_time": "15:15"
+      }
+    ]
+  },
+  {
+    "id": "CSCI6232",
+    "name": "Software Engineering",
+    "credits": 3,
+    "description": "Software development methodologies, object-oriented design, testing, verification, maintenance, management, software metrics, and implementation tools.",
+    "prerequisites": ["CSCI6221"],
+    "available_times": [
+      {
+        "day": "Tuesday",
+        "start_time": "18:10",
+        "end_time": "20:40"
+      },
+      {
+        "day": "Thursday",
+        "start_time": "15:30",
+        "end_time": "18:00"
+      }
+    ]
+  },
+  {
+    "id": "CSCI6331",
+    "name": "Cryptography",
+    "credits": 3,
+    "description": "Modern cryptography including symmetric and public-key encryption, authentication, digital signatures, and cryptographic protocols.",
+    "prerequisites": ["CSCI6212"],
+    "available_times": [
+      {
+        "day": "Monday",
+        "start_time": "12:45",
+        "end_time": "15:15"
+      },
+      {
+        "day": "Wednesday",
+        "start_time": "18:10",
+        "end_time": "20:40"
+      }
+    ]
+  },
+  {
+    "id": "CSCI6511",
+    "name": "Artificial Intelligence",
+    "credits": 3,
+    "description": "Theory and applications of artificial intelligence including knowledge representation, inference, machine learning, and planning.",
+    "prerequisites": ["CSCI6212"],
+    "available_times": [
+      {
+        "day": "Tuesday",
+        "start_time": "12:45",
+        "end_time": "15:15"
+      },
+      {
+        "day": "Thursday",
+        "start_time": "18:10",
+        "end_time": "20:40"
+      }
+    ]
+  },
+  {
+    "id": "CSCI6515",
+    "name": "Data Mining",
+    "credits": 3,
+    "description": "Concepts and techniques for data mining and knowledge discovery. Topics include classification, clustering, association rules, and sequence mining.",
+    "prerequisites": ["CSCI6212"],
+    "available_times": [
+      {
+        "day": "Monday",
+        "start_time": "09:00",
+        "end_time": "11:30"
+      },
+      {
+        "day": "Friday",
+        "start_time": "12:45",
+        "end_time": "15:15"
+      }
+    ]
+  },
+  {
+    "id": "CSCI6241",
+    "name": "Database Management Systems",
+    "credits": 3,
+    "description": "Design and implementation of database management systems, including data models, query languages, transaction processing, and database administration.",
+    "prerequisites": [],
+    "available_times": [
+      {
+        "day": "Wednesday",
+        "start_time": "09:00",
+        "end_time": "11:30"
+      },
+      {
+        "day": "Friday",
+        "start_time": "15:30",
+        "end_time": "18:00"
+      }
+    ]
+  },
+  {
+    "id": "CSCI6364",
+    "name": "Machine Learning",
+    "credits": 3,
+    "description": "Theoretical foundations and practical applications of machine learning including supervised and unsupervised learning, neural networks, and reinforcement learning.",
+    "prerequisites": ["CSCI6511"],
+    "available_times": [
+      {
+        "day": "Tuesday",
+        "start_time": "09:00",
+        "end_time": "11:30"
+      },
+      {
+        "day": "Thursday",
+        "start_time": "09:00",
+        "end_time": "11:30"
+      }
+    ]
+  },
+  {
+    "id": "CSCI6531",
+    "name": "Computer Security",
+    "credits": 3,
+    "description": "Principles and practice of computer security including cryptography, authentication, access control, software security, and network security.",
+    "prerequisites": ["CSCI6461"],
+    "available_times": [
+      {
+        "day": "Monday",
+        "start_time": "18:10",
+        "end_time": "20:40"
+      },
+      {
+        "day": "Friday",
+        "start_time": "09:00",
+        "end_time": "11:30"
+      }
+    ]
+  }
+]
