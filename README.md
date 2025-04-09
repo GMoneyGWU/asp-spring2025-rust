@@ -5,23 +5,23 @@ This project is a simple, clean application for managing class schedules, studen
 It uses:
 - 📄 **HTML/CSS/JavaScript** frontend
 - 🦀 **Rust** backend server
-- 🗃️ **JSON** files for data storage
+- 🗃️ **JSON** files for persistent data storage
 
 ---
 
 ## 📁 Project Structure
 
 ```plaintext
-frontend/
+static/
   ├── index.html      # Main web page
+  ├── admin.html      # admin web page
+  ├── student.html      # student web page
   ├── styles.css      # CSS styles
   ├── script.js       # JavaScript frontend logic
 backend/
   ├── Cargo.toml      # Rust project configuration
   ├── src/
       ├── main.rs     # Rust server logic
-data/
   ├── courses.json
-  ├── students.json
-  ├── semester_plans.json
-  ├── (and other data files)
+  ├── schedule.json
+  ├── users.json
