@@ -13,21 +13,34 @@ It uses:
 
 ```plaintext
 frontend/
-  ├── index.html      # Main web page
-  ├── styles.css      # CSS styles
-  ├── script.js       # JavaScript frontend logic
+  ├── index.html            # Main web page
+  ├── css/
+  │   └── styles.css        # CSS stylesheets
+  └── js/
+      └── script.js         # JavaScript frontend logic
 backend/
-  ├── Cargo.toml      # Rust project configuration
-  ├── src/
-      ├── main.rs     # Main Rust server logic
-      ├── models.rs   # Data models/structures
-      └── utils.rs    # Utility functions
+  ├── Cargo.toml            # Rust project configuration
+  └── src/
+      ├── main.rs           # Application entry point
+      ├── api/              # API endpoints
+      │   ├── mod.rs
+      │   └── routes.rs     # Route handlers
+      ├── models/           # Data models
+      │   ├── mod.rs
+      │   ├── models.rs     # Data structures
+      │   └── app_state.rs  # Application state
+      └── utils/            # Utility functions
+          ├── mod.rs
+          ├── file_utils.rs     # File operations
+          └── schedule_utils.rs # Schedule handling
 data/
   ├── courses.json           # GWU Computer Science courses
   ├── students.json          # Student profiles
   ├── preferences.json       # Student course preferences
   ├── semester_plans.json    # Generated schedules
   └── constraints.json       # Student scheduling constraints
+docs/
+  └── architecture.txt       # System architecture documentation
 ```
 
 ## 🚀 Running the Application

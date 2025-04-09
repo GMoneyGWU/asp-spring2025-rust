@@ -1,71 +1,16 @@
 use actix_cors::Cors;
-use actix_web::{get, post, web, App, HttpResponse, HttpServer, Responder};
-use serde::{Deserialize, Serialize};
-use std::fs;
-use std::path::Path;
-use std::sync::Mutex;
+use actix_web::{web, App, HttpServer};
 use log::{info, error};
+use std::sync::Mutex;
 
+mod api;
 mod models;
 mod utils;
 
-use models::{Course, Student, Preference, Schedule, TimeSlot};
-
-// State for the application
-struct AppState {
-    courses: Mutex<Vec<Course>>,
-    students: Mutex<Vec<Student>>,
-    schedules: Mutex<Vec<Schedule>>,
-}
-
-// Load data from JSON files
-fn load_data(file_path: &str) -> Result<String, std::io::Error> {
-    if Path::new(file_path).exists() {
-        fs::read_to_string(file_path)
-    } else {
-        Ok("[]".to_string()) // Return empty array if file doesn't exist
-    }
-}
-
-// API endpoints
-#[get("/courses")]
-async fn get_courses(data: web::Data<AppState>) -> impl Responder {
-    let courses = data.courses.lock().unwrap();
-    HttpResponse::Ok().json(&*courses)
-}
-
-#[get("/students")]
-async fn get_students(data: web::Data<AppState>) -> impl Responder {
-    let students = data.students.lock().unwrap();
-    HttpResponse::Ok().json(&*students)
-}
-
-#[get("/schedules")]
-async fn get_schedules(data: web::Data<AppState>) -> impl Responder {
-    let schedules = data.schedules.lock().unwrap();
-    HttpResponse::Ok().json(&*schedules)
-}
-
-#[post("/schedules")]
-async fn create_schedule(data: web::Data<AppState>, schedule: web::Json<Schedule>) -> impl Responder {
-    let mut schedules = data.schedules.lock().unwrap();
-    schedules.push(schedule.into_inner());
-    
-    // Save to file
-    match fs::write("../data/semester_plans.json", serde_json::to_string_pretty(&*schedules).unwrap()) {
-        Ok(_) => HttpResponse::Ok().body("Schedule saved"),
-        Err(e) => {
-            error!("Error saving schedule: {}", e);
-            HttpResponse::InternalServerError().body("Failed to save schedule")
-        }
-    }
-}
-
-// Health check endpoint
-#[get("/health")]
-async fn health_check() -> impl Responder {
-    HttpResponse::Ok().body("Server is running")
-}
+use api::routes::{health_check, get_courses, get_students, get_schedules, create_schedule};
+use models::app_state::AppState;
+use models::models::{Course, Student, Schedule};
+use utils::file_utils::load_data;
 
 #[actix_web::main]
 async fn main() -> std::io::Result<()> {
