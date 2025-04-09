@@ -1,0 +1,5 @@
+C:\Users\gyano\OneDrive\Documents\CSCI 6221\final\asp-spring2025-rust\target\debug\build\getrandom-f63c8b5f02eba6a1\build_script_build-f63c8b5f02eba6a1.exe: C:\Users\gyano\.cargo\registry\src\index.crates.io-6f17d22bba15001f\getrandom-0.3.2\build.rs
+
+C:\Users\gyano\OneDrive\Documents\CSCI 6221\final\asp-spring2025-rust\target\debug\build\getrandom-f63c8b5f02eba6a1\build_script_build-f63c8b5f02eba6a1.d: C:\Users\gyano\.cargo\registry\src\index.crates.io-6f17d22bba15001f\getrandom-0.3.2\build.rs
+
+C:\Users\gyano\.cargo\registry\src\index.crates.io-6f17d22bba15001f\getrandom-0.3.2\build.rs:

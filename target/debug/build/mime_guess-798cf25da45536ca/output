@@ -1,0 +1,1 @@
+cargo:rustc-env=MIME_TYPES_GENERATED_PATH=C:\Users\gyano\OneDrive\Documents\CSCI 6221\final\asp-spring2025-rust\target\debug\build\mime_guess-798cf25da45536ca\out\mime_types_generated.rs
