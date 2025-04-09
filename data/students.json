@@ -1,0 +1,42 @@
+[
+  {
+    "id": "G11045678",
+    "name": "Alex Johnson",
+    "email": "ajohnson@gwmail.gwu.edu",
+    "major": "Computer Science",
+    "year": "Graduate",
+    "completed_courses": ["CSCI6212", "CSCI6221"]
+  },
+  {
+    "id": "G11098765",
+    "name": "Taylor Rodriguez",
+    "email": "trodriguez@gwmail.gwu.edu",
+    "major": "Cybersecurity",
+    "year": "Graduate",
+    "completed_courses": ["CSCI6212", "CSCI6461", "CSCI6331"]
+  },
+  {
+    "id": "G11056789",
+    "name": "Jordan Smith",
+    "email": "jsmith@gwmail.gwu.edu",
+    "major": "Data Analytics",
+    "year": "Graduate",
+    "completed_courses": ["CSCI6212", "CSCI6515"]
+  },
+  {
+    "id": "G11034567",
+    "name": "Morgan Lee",
+    "email": "mlee@gwmail.gwu.edu",
+    "major": "Computer Science",
+    "year": "Graduate",
+    "completed_courses": ["CSCI6221", "CSCI6461", "CSCI6511"]
+  },
+  {
+    "id": "G11067890",
+    "name": "Casey Williams",
+    "email": "cwilliams@gwmail.gwu.edu",
+    "major": "Computer Science",
+    "year": "Graduate",
+    "completed_courses": []
+  }
+]

@@ -11,8 +11,11 @@ This checklist tracks the full progress for the reorganized v3-based project.
 | Organize frontend into `/frontend/` | ✅ Done |
 | Organize backend into `/backend/` | ✅ Done |
 | Organize data into `/data/` | ✅ Done |
-| Verify frontend loads (`index.html`) manually | 🔜 To Test |
-| Verify backend builds (`cargo build`) | 🔜 To Test |
+| Create GWU course data | ✅ Done |
+| Implement backend API | ✅ Done |
+| Implement frontend UI | ✅ Done |
+| Verify frontend loads (`index.html`) manually | ✅ Done | Can open directly in browser |
+| Verify backend builds (`cargo build`) | ✅ Done | Successfully builds with minor warnings |
 
 ---
 
