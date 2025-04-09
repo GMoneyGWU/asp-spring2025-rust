@@ -1,0 +1,12 @@
+# Configuration for flutter_rust_bridge code generation
+output_dir: frontend/lib/api/generated/
+rust_input: backend/src/api.rs
+dart_output:
+  path: bridge_generated.dart
+  class_name: NativeApi
+c_output:
+  path: bridge_generated.h
+wire_output:
+  file_path: bridge_generated.wire.h
+dart_decl_output:
+  path: bridge_definitions.dart
